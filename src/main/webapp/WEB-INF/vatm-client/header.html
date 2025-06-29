@@ -3,7 +3,8 @@
         <div class="tp-header-logo p-relative">
             <span class="tp-header-logo-bg"></span>
             <a href="index.html">
-                <img width="144" height="48" src="assets/img/logo/logo.png" alt="">
+                <img src="assets/img/logo/logo.png" alt="logo"
+                     style="max-width: 200px; height: auto;">
             </a>
         </div>
         <div class="tp-header-wrapper-inner header__sticky p-relative">
@@ -50,12 +51,14 @@
                         </div>
                     </div>
                     <div class="tp-header-sticky-hamburger d-xl-none offcanvas-open-btn">
-                        <button class="hamburger-btn">
+                        <!-- Added data-bs-toggle and data-bs-target to link the button to the menu -->
+                        <button class="hamburger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu">
                             <span></span>
                             <span></span>
                             <span></span>
                         </button>
                     </div>
+
                 </div>
             </div>
         </div>
