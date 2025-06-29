@@ -3,19 +3,16 @@
         <div class="tp-header-logo p-relative">
             <span class="tp-header-logo-bg"></span>
             <a href="index.html">
-                <img src="assets/img/logo/logo.png" alt="logo"
-                     style="max-width: 200px; height: auto;">
+                <img src="assets/img/logo/logo.png" alt="logo" style="max-width: 200px; height: auto;">
             </a>
         </div>
         <div class="tp-header-wrapper-inner header__sticky p-relative">
             <div class="tp-header-top d-none d-xl-flex">
                 <div class="tp-header-top-info">
-                    <a href="https://www.google.com/maps/dir//143-A,+Industrial+Area+Phase+I,+Chandigarh,+160002/@30.7093261,76.7185992,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390fece869c00001:0xdbfbd27e661bb82c!2m2!1d76.8010005!2d30.7093521?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><span><i class="fa-sharp fa-solid fa-location-dot"></i>
-                    </span>SF 20, City Emporium Mall,Industrial Area Phase I,
-                        Chandigarh, 160002 India</a>
+                    <a href="https://www.google.com/maps/dir//143-A,+Industrial+Area+Phase+I,+Chandigarh,+160002" target="_blank"><span><i class="fa-sharp fa-solid fa-location-dot"></i></span>SF 20, City Emporium Mall, Industrial Area Phase I, Chandigarh, 160002 India</a>
                 </div>
                 <div class="tp-header-top-right d-flex justify-content-end align-items-center">
-                    <div class="header-social ">
+                    <div class="header-social">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -51,16 +48,83 @@
                         </div>
                     </div>
                     <div class="tp-header-sticky-hamburger d-xl-none offcanvas-open-btn">
-                        <!-- Added data-bs-toggle and data-bs-target to link the button to the menu -->
                         <button class="hamburger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu">
                             <span></span>
                             <span></span>
                             <span></span>
                         </button>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 </header>
+
+<!-- Corrected Off-Canvas Menu Structure -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-menu" aria-labelledby="offcanvasMenuLabel">
+    <div class="offcanvas__area">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+                <button class="offcanvas__close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="offcanvas__content">
+                <div class="offcanvas__top mb-50 d-flex justify-content-between align-items-center">
+                    <div class="offcanvas__logo logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="logo" style="max-width: 180px; height: auto;">
+                        </a>
+                    </div>
+                </div>
+                <div class="tp-main-menu-mobile fix mb-40">
+                    <nav class="tp-main-menu-content">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="griverance_policy.html">Grievance Policy</a></li>
+                            <li><a href="index.html#tb-about-area">How it works</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="offcanvas__contact">
+                    <h4 class="offcanvas__title">Contacts</h4>
+                    <div class="offcanvas__contact-content d-flex">
+                        <div class="offcanvas__contact-content-icon">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="offcanvas__contact-content-content">
+                            <a href="https://www.google.com/maps/dir//143-A,+Industrial+Area+Phase+I,+Chandigarh,+160002" target="_blank">SF 20, City Emporium Mall, Industrial Area Phase I, Chandigarh, 160002 India</a>
+                        </div>
+                    </div>
+                    <div class="offcanvas__contact-content d-flex">
+                        <div class="offcanvas__contact-content-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="offcanvas__contact-content-content">
+                            <a href="mailto:contact@paymart.com">contact@paymart.com</a>
+                        </div>
+                    </div>
+                    <div class="offcanvas__contact-content d-flex">
+                        <div class="offcanvas__contact-content-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="offcanvas__contact-content-content">
+                            <a href="tel:+919915346888">+91 99153 46888</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="offcanvas__social">
+                    <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="icon instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
