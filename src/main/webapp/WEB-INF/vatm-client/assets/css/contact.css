@@ -1,0 +1,95 @@
+  /* Gives the entire section a light gray background to stand out */
+    .tp-contact-area-enhanced {
+        background-color: #f8f9fa;
+    }
+
+    /* Styles the main cards for the form and info panel */
+    .enhanced-card {
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 15px 40px rgba(22, 36, 62, 0.07);
+        height: 100%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .enhanced-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 45px rgba(22, 36, 62, 0.1);
+    }
+
+    /* Specific styling for the dark-themed contact info card */
+    .enhanced-info-card {
+        background-color: #16243E; /* Uses a primary color from your theme */
+        color: #ffffff;
+    }
+
+    .enhanced-info-card .tp-contact-info-title {
+        color: #ffffff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+
+    .enhanced-info-card .tp-contact-info-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    /* Styles the icons in the info panel */
+    .enhanced-info-card .tp-contact-info-icon i {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-right: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .enhanced-info-card .tp-contact-info-item:hover .tp-contact-info-icon i {
+        background-color: #ffffff;
+        color: #16243E; /* Icon color flips on hover */
+    }
+
+    .enhanced-info-card .tp-contact-info-text a {
+        color: #ced4da;
+        font-size: 16px;
+    }
+
+    .enhanced-info-card .tp-contact-info-text a span {
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    /* Adds icons to the input fields of the form */
+    .tp-contact-form-input-box {
+        position: relative;
+    }
+
+    .tp-contact-form-input-box .form-icon {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        color: #adb5bd;
+    }
+
+    .tp-contact-form-input-box input,
+    .tp-contact-form-input-box textarea {
+        padding-left: 50px; /* Makes room for the icon */
+    }
+
+    /* Button enhancement for better visibility */
+    .tp-contact-from-button .tp-btn {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 16px;
+        font-weight: 600;
+    }

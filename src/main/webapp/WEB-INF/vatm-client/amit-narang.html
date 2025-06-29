@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Paymart - Team Details - Amit Narang</title>
+    <meta name="description" content="Team details for Amit Narang, Founder of Paymart.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+<!-- Header Placeholder -->
+<header id="header-placeholder"></header>
+
+<main>
+    <div class="tp-team-details-area pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="tp-team-details-thumb">
+                        <img src="assets/img/team/AMNarang.png" alt="Amit Narang">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="tp-team-details-wrapper">
+                        <div class="tp-team-details-info mb-30">
+                            <h3 class="tp-team-details-name">Amit Narang</h3>
+                            <span class="tp-team-details-designation">Founder</span>
+                        </div>
+                        <div class="tp-team-details-bio">
+                            <ul>
+                                <li>Post Graduate in Commerce and MBA with specialization in Finance.</li>
+                                <li>A Serial Entrepreneur with 30 years exposure in the financial sector across multifunctional domains of e-Wallets, Digital Transactions, Foreign Exchange, Remittances, Deposits, Insurance, Merchants Network and now in Virtual ATM.</li>
+                                <li>Out of his 30 years experience, he served with reputed companies at senior positions for 23 years. His first startup, FX Mart, was acquired by Flipkart in 2015-16 and rebranded as PhonePe.</li>
+                                <li>Now, in his second startup, Paymart is the first company in India to introduce and launch India's First Virtual ATM - www.vatm.in.</li>
+                            </ul>
+                        </div>
+                        <div class="tp-team-details-contact mt-40">
+                            <h4 class="tp-team-details-contact-title">Contact Info:</h4>
+                            <div class="tp-team-details-contact-item">
+                                <span><i class="fa-solid fa-envelope"></i> Email:</span>
+                                <a href="mailto:amitnarang@mypaymart.com">amitnarang@mypaymart.com</a>
+                            </div>
+                            <div class="tp-team-details-contact-item">
+                                <span><i class="fa-solid fa-phone"></i> Phone:</span>
+                                <a href="tel:+919915876860">+91-9915876860</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Footer Placeholder -->
+<footer id="footer-placeholder"></footer>
+
+<!-- JS here -->
+<script>
+    window.onload = function() {
+        const loadComponent = async (url, elementId) => {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+                const html = await response.text();
+                const placeholder = document.getElementById(elementId);
+                if (placeholder) {
+                    placeholder.innerHTML = html;
+                    const elementsWithBgColor = placeholder.querySelectorAll('[data-bg-color]');
+                    elementsWithBgColor.forEach(el => el.style.backgroundColor = el.getAttribute('data-bg-color'));
+                    const elementsWithBgImage = placeholder.querySelectorAll('[data-background]');
+                    elementsWithBgImage.forEach(el => el.style.backgroundImage = `url(${el.getAttribute('data-background')})`);
+                }
+            } catch (error) {
+                console.error(`Failed to load component for '${elementId}':`, error);
+            }
+        };
+        Promise.all([
+            loadComponent('header.html', 'header-placeholder'),
+            loadComponent('footer.html', 'footer-placeholder')
+        ]);
+    };
+</script>
+<script src="assets/js/vendor/jquery.js"></script>
+<script src="assets/js/bootstrap-bundle.js"></script>
+<script src="assets/js/swiper-bundle.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

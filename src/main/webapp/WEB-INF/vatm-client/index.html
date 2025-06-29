@@ -1,0 +1,783 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Virtual ATM - The Future of ATM's</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+
+<!-- pre loader area start -->
+<div id="loading">
+    <div id="loading-center">
+        <div class="preloader"></div>
+    </div>
+</div>
+<!-- pre loader area end -->
+
+
+<!-- back to top start -->
+<div class="back-to-top-wrapper">
+    <button id="back_to_top" type="button" class="back-to-top-btn">
+        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</div>
+<!-- back to top end -->
+
+
+<!-- search area start -->
+<div class="search-area">
+    <div class="search-inner p-relative">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="search-wrapper">
+                        <div class="search-close">
+                            <button class="search-close-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="search-content pt-35">
+                            <h3 class="heading text-center mb-30">Hi! How can we help You?</h3>
+                            <div class="d-flex justify-content-center px-5">
+                                <div class="search w-100 p-relative">
+                                    <input type="text" class="search-input" placeholder="Search...">
+                                    <button  class="search-icon">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="search-overlay"></div>
+<!-- search area end -->
+
+
+<!-- offcanvas area start -->
+<div class="offcanvas__area">
+    <div class="offcanvas__wrapper">
+        <div class="offcanvas__close">
+            <button class="offcanvas__close-btn offcanvas-close-btn">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="offcanvas__content">
+            <div class="offcanvas__top mb-50 d-flex justify-content-between align-items-center">
+                <div class="offcanvas__logo logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo/logo-black.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="tp-main-menu-mobile fix d-xl-none mb-40"></div>
+
+            <div class="offcanvas__contact">
+                <h4 class="offcanvas__title">Contacts</h4>
+                <div class="offcanvas__contact-content d-flex">
+                    <div class="offcanvas__contact-content-icon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="offcanvas__contact-content-content">
+                        <a href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86 Road Broklyn Street, 600 </a>
+                    </div>
+                </div>
+                <div class="offcanvas__contact-content d-flex">
+                    <div class="offcanvas__contact-content-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="offcanvas__contact-content-content">
+                        <a href="mailto:needhelp@company.com"> Needhelp@company.com  </a>
+                    </div>
+                </div>
+                <div class="offcanvas__contact-content d-flex">
+                    <div class="offcanvas__contact-content-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="offcanvas__contact-content-content">
+                        <a href="tel:01310-069824"> +92 666 888 0000</a>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas__social">
+                <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
+                <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body-overlay"></div>
+<!-- offcanvas area end -->
+
+
+<!-- header area start -->
+<div id="header-placeholder"></div>
+
+<!-- header area end -->
+
+<!-- sticky header start -->
+<header id="header-sticky" class="tp-header-main-sticky p-relative">
+    <div class="tp-header-space-2">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-6">
+                    <div class="tp-header-logo-2 p-relative">
+                        <a href="index.html">
+                            <img width="144" height="48" src="assets/img/logo/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-xl-block">
+                    <div class="tp-main-menu home-2 d-none d-xl-block">
+                        <nav class="tp-main-menu-content">
+                            <ul>
+                                <li class="has-dropdown">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#tb-about-area" id="scroll-to-about">How it works</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-6">
+                    <div class="tp-header-main-right-2 d-flex align-items-center justify-content-xl-end">
+                        <div class="tp-header-contact-2 d-flex align-items-center">
+                            <div class="tp-header-contact-search search-open-btn d-none d-xxl-block">
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                            <div class="tp-header-contact-inner d-none d-xl-flex align-items-center">
+                                <div class="tp-header-contact-icon">
+                                    <span><i class="fa-solid fa-phone"></i></span>
+                                </div>
+                                <div class="tp-header-contact-content">
+                                    <p>Contact:</p>
+                                    <span><a href="tel:+919915346888">+919915346888</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tp-header-main-right-hamburger-btn d-xl-none offcanvas-open-btn text-end">
+                            <button class="hamburger-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- sticky header end -->
+<main>
+
+    <!-- hero area start -->
+    <section class="tp-hero-area p-relative">
+        <div class="tp-hero-wrapper-slider">
+            <div class="tp-hero-active swiper-container">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1: Virtual ATM (VATM) -->
+                    <div class="swiper-slide pt-160 pb-115" data-bg-color="#16243E">
+                        <div class="tp-hero-bg" data-background="assets/img/hero/shape-bg.png"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="tp-hero-content p-relative">
+                                        <div class="tp-hero-title-wrapper">
+                                            <span class="tp-hero-subtitle">Welcome to Paymart</span>
+                                            <h2 class="tp-hero-title">VATM: India's First Virtual ATM</h2>
+                                            <p>VATM brings you India's first Virtual ATM experience — allowing you to withdraw cash without visiting a physical bank ATM. Enjoy seamless, secure, and convenient cash withdrawals at nearby partner shops.</p>
+                                        </div>
+                                        <div class="tp-hero-button-wrapper d-flex flex-wrap align-items-center">
+                                            <div class="tp-hero-btn mr-30">
+                                                <a class="tp-btn" href="#">Merchant Signup <span><i class="fa-regular fa-plus"></i></span></a>
+                                            </div>
+                                            <div class="tp-hero-btn mr-30">
+                                                <a class="tp-btn" href="#">Merchant login <span><i class="fa-regular fa-plus"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="tp-hero-thumb p-relative">
+                                        <img width="450" height="500" src="assets/img/hero/vatm-local.png" alt="Virtual ATM Service">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Our Mission -->
+                    <div class="swiper-slide pt-160 pb-115" data-bg-color="#16243E">
+                        <div class="tp-hero-bg" data-background="assets/img/hero/shape-bg.png"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="tp-hero-content p-relative">
+                                        <div class="tp-hero-title-wrapper">
+                                            <span class="tp-hero-subtitle">Our Core Mission</span>
+                                            <h2 class="tp-hero-title">A Cardless Future</h2>
+                                            <p>We are on a mission to revolutionize payments by replacing the need for physical cards. Our technology integrates directly with your bank account, offering a more secure, seamless, and convenient way to transact.</p>
+                                        </div>
+                                        <div class="tp-hero-button-wrapper d-flex flex-wrap align-items-center">
+                                            <div class="tp-hero-btn mr-30">
+                                                <a class="tp-btn" href="#">Learn More <span><i class="fa-regular fa-circle-question"></i></span></a>
+                                            </div>
+                                            <div class="tp-hero-btn mr-30">
+                                                <a class="tp-btn" href="#">Merchant login <span><i class="fa-regular fa-plus"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="tp-hero-thumb p-relative">
+                                        <!-- NOTE: Please replace with an image that represents your mission -->
+                                        <img width="450" height="500" src="assets/img/hero/vatm-local.png" alt="Our Mission for a Cardless Future">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Largest Merchant Network -->
+                    <div class="swiper-slide pt-160 pb-115" data-bg-color="#16243E">
+                        <div class="tp-hero-bg" data-background="assets/img/hero/shape-bg.png"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="tp-hero-content p-relative">
+                                        <div class="tp-hero-title-wrapper">
+                                            <span class="tp-hero-subtitle">Our Growing Network</span>
+                                            <h2 class="tp-hero-title">India's Largest Merchant Network</h2>
+                                            <p>Through our strategic partnership with CSC, we have integrated one of the nation's largest merchant networks, and we are actively working with other partners to integrate with us. This powerful collaboration brings our solutions closer to you, and with more partners joining soon, our reach is always growing.</p>
+                                        </div>
+                                        <div class="tp-hero-button-wrapper d-flex flex-wrap align-items-center">
+                                            <div class="tp-hero-btn mr-30">
+                                                <a class="tp-btn" href="#">Find a Merchant <span><i class="fa-regular fa-magnifying-glass"></i></span></a>
+                                            </div>
+                                            <div class="tp-hero-btn mr-30">
+                                                <a class="tp-btn" href="#">Merchant login <span><i class="fa-regular fa-plus"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="tp-hero-thumb p-relative">
+                                        <!-- NOTE: Please replace with an image representing your CSC partnership -->
+                                        <img width="450" height="500" src="assets/img/hero/csc-partnership.png" alt="Paymart's extensive merchant network with CSC">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Slider Navigation and Pagination -->
+            <div class="tp-hero-nav">
+                <button type="button" class="hero-button-prev-1"><i class="fa-regular fa-arrow-left"></i></button>
+                <button type="button" class="hero-button-next-1"><i class="fa-regular fa-arrow-right"></i></button>
+            </div>
+            <div class="tp-hero-pagination"></div>
+        </div>
+    </section>
+    <!-- hero area end -->
+
+    <!-- how it work -->
+    <section class="tp-about-area p-relative pt-130 pb-210" id="tb-about-area">
+        <div class="tp-about-shape">
+            <img src="assets/img/about/shape-3.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="tp-about-thumb-wrapper p-relative wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="main">
+                            <video width="500" height="500" controls>
+                                <source src="assets/video/vatm.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tp-about-wrapper">
+                        <div class="tp-about-title-wrapper">
+                            <span class="tp-section-title-pre">How does it work?</span>
+                            <h3 class="tp-section-title">Need cash? Withdraw it from nearby shops!</h3>
+                        </div>
+                        <p>Paymart introduces India’s first Virtual ATM (VATM) — no need to visit a physical ATM.
+                            Just head to a VATM-affiliated shop near you and complete your withdrawal securely and conveniently.</p>
+                        <h4>Steps to Withdraw Cash via VATM</h4>
+                        <div class="tp-about-wrapper-list">
+                            <ul class="vatm-steps">
+                                <li>1. The customer initiates a transaction to withdraw cash using the bank's mobile app.</li>
+                                <li>2. The bank debits the customer's account and sends an OTP to their registered mobile number.</li>
+                                <li>3. The customer visits a nearby VATM-affiliated shop (merchant location) and provides the OTP along with KYC details.</li>
+                                <li>4. The merchant logs into VATM and validates the OTP. </li>
+                                <li>5. Upon successful verification, the merchant hands over the cash to the customer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about area end -->
+
+    <!-- Our Achievements Section Start -->
+    <section class="tp-achievements-area">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="tp-section-title-wrapper mb-60">
+                        <h2 class="tp-section-title">Our Achievements at a Glance</h2>
+                        <p>We are proud to have built a trusted network that serves thousands of merchants and customers across the nation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Achievement 1: Merchants -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="achievement-card merchants">
+                        <div class="achievement-icon">
+                            <i class="flaticon-group"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3 class="achievement-count">
+                                <span class="purecounter" data-purecounter-duration="1" data-purecounter-end="5000">0</span>+
+                            </h3>
+                            <p class="achievement-label">Happy Merchants</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 2: Customers -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="achievement-card customers">
+                        <div class="achievement-icon">
+                            <i class="flaticon-satisfaction"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3 class="achievement-count">
+                                <span class="purecounter" data-purecounter-duration="1" data-purecounter-end="1000000">0</span>+
+                            </h3>
+                            <p class="achievement-label">Satisfied Customers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 3: Transactions -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="achievement-card transactions">
+                        <div class="achievement-icon">
+                            <i class="flaticon-money-transfer"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3 class="achievement-count">
+                                <span class="purecounter" data-purecounter-duration="1" data-purecounter-end="5000000">0</span>+
+                            </h3>
+                            <p class="achievement-label">Secure Transactions</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Our Achievements Section End -->
+
+    <!-- service area bank start -->
+    <section class="tp-service-area pt-120 pb-90" data-bg-color="#F6F6F9">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8">
+                    <div class="tp-service-title-wrapper mb-40">
+                        <span class="tp-section-title-pre">Our Partners Bank</span>
+                        <h3 class="tp-section-title">Innovate to dominate <br> with us</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4">
+                    <div class="tp-service-nav text-end">
+                        <button type="button" class="service-button-prev-1"><i class="fa-regular fa-arrow-left"></i>
+                        </button>
+                        <button type="button" class="service-button-next-1"><i class="fa-regular fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tp-service-active swiper-container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="swiper-wrapper mb-30 mt-40">
+                        <div class="swiper-slide">
+                            <div class="tp-service-item-wrapper p-relative">
+                                <div class="tp-service-item-icon">
+                                <span>
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15 32.5V38.125C15 38.2908 15.0658 38.4497 15.1831 38.5669C15.3003 38.6842 15.4592 38.75 15.625 38.75H24.375C24.5408 38.75 24.6997 38.6842 24.8169 38.5669C24.9342 38.4497 25 38.2908 25 38.125V32.5C25.0018 31.8431 24.8733 31.1924 24.6219 30.5855C24.3706 29.9786 24.0014 29.4276 23.5356 28.9644C23.1476 28.5781 22.699 28.2581 22.2075 28.0169C23.0281 27.4175 23.6056 26.5038 23.7238 25.4319C23.7425 25.29 23.75 25.1481 23.75 25C23.75 24.8775 23.7431 24.7612 23.7319 24.6562C23.5556 22.7463 21.9169 21.25 20 21.25C18.0831 21.25 16.4444 22.7463 16.2694 24.645C16.2565 24.7629 16.2501 24.8814 16.25 25C16.25 25.1481 16.2575 25.29 16.2744 25.4169C16.3938 26.4988 16.9731 27.4175 17.7963 28.0181C16.1431 28.835 15 30.5344 15 32.5ZM20 22.5C20.8025 22.5 21.5312 22.8944 21.9919 23.5056C21.3487 23.2557 20.665 23.1267 19.975 23.125C19.3 23.125 18.6469 23.2456 18.0331 23.4725C18.2657 23.1718 18.5636 22.9279 18.9044 22.7594C19.2452 22.591 19.6199 22.5022 20 22.5ZM17.515 25.2662C17.5106 25.2312 17.5112 25.1944 17.5088 25.1594C18.2304 24.65 19.0917 24.3761 19.975 24.375C20.8937 24.375 21.7525 24.665 22.4881 25.1919C22.4856 25.2219 22.4869 25.2488 22.4825 25.2806C22.3438 26.5456 21.2763 27.5 20 27.5C18.7237 27.5 17.6562 26.5456 17.515 25.2662ZM20.5875 33.0525L20 34.2275L19.4125 33.0525L20 30.7019L20.5875 33.0525ZM19.1763 28.8444L18.1438 32.9737C18.1073 33.1185 18.1239 33.2715 18.1906 33.405L19.4406 35.905C19.4928 36.0086 19.5728 36.0956 19.6716 36.1565C19.7704 36.2173 19.8842 36.2494 20.0002 36.2494C20.1162 36.2493 20.2299 36.217 20.3287 36.1561C20.4274 36.0952 20.5073 36.008 20.5594 35.9044L21.8094 33.4044C21.8761 33.2709 21.8927 33.1179 21.8563 32.9731L20.8237 28.8431C21.5164 28.9969 22.1506 29.3454 22.6519 29.8475C23.0011 30.1951 23.278 30.6085 23.4665 31.0638C23.655 31.5191 23.7513 32.0072 23.75 32.5V37.5H16.25V32.5C16.25 30.7156 17.5037 29.2206 19.1763 28.8444ZM37.2856 26.4644C36.8976 26.0781 36.449 25.7581 35.9575 25.5169C36.7781 24.9175 37.3556 24.0038 37.4738 22.9319C37.4925 22.79 37.5 22.6481 37.5 22.5C37.5 22.3775 37.4931 22.2612 37.4819 22.1562C37.3056 20.2463 35.6669 18.75 33.75 18.75C31.8331 18.75 30.1944 20.2463 30.0194 22.145C30.0065 22.2629 30 22.3814 30 22.5C30 22.6481 30.0075 22.79 30.0244 22.9169C30.1438 23.9988 30.7231 24.9175 31.5462 25.5181C29.8931 26.335 28.75 28.0344 28.75 30V35.625C28.75 35.7908 28.8158 35.9497 28.9331 36.0669C29.0503 36.1842 29.2092 36.25 29.375 36.25H38.125C38.2908 36.25 38.4497 36.1842 38.5669 36.0669C38.6842 35.9497 38.75 35.7908 38.75 35.625V30C38.7518 29.3431 38.6233 28.6924 38.3719 28.0855C38.1206 27.4786 37.7514 26.9276 37.2856 26.4644ZM33.75 20C34.5525 20 35.2812 20.3944 35.7419 21.0056C35.0987 20.7557 34.415 20.6267 33.725 20.625C33.05 20.625 32.3969 20.7456 31.7831 20.9725C32.0157 20.6718 32.3136 20.4279 32.6544 20.2594C32.9952 20.091 33.3699 20.0022 33.75 20ZM31.265 22.7662C31.2606 22.7312 31.2612 22.6944 31.2588 22.6594C31.9804 22.15 32.8417 21.8761 33.725 21.875C34.6437 21.875 35.5025 22.165 36.2381 22.6919C36.2356 22.7219 36.2369 22.7488 36.2325 22.7806C36.0938 24.0456 35.0262 25 33.75 25C32.4737 25 31.4062 24.0456 31.265 22.7662ZM34.3375 30.5525L33.75 31.7275L33.1625 30.5525L33.75 28.2019L34.3375 30.5525ZM37.5 35H30V30C30 28.2156 31.2537 26.7206 32.9263 26.3444L31.8937 30.4737C31.8573 30.6185 31.8739 30.7715 31.9406 30.905L33.1906 33.405C33.2428 33.5086 33.3228 33.5956 33.4216 33.6565C33.5204 33.7173 33.6342 33.7494 33.7502 33.7494C33.8662 33.7493 33.9799 33.717 34.0787 33.6561C34.1774 33.5952 34.2573 33.508 34.3094 33.4044L35.5594 30.9044C35.6261 30.7709 35.6427 30.6179 35.6063 30.4731L34.5737 26.3431C35.2664 26.4969 35.9006 26.8454 36.4019 27.3475C36.7511 27.6951 37.028 28.1085 37.2165 28.5638C37.405 29.0191 37.5013 29.5072 37.5 30V35ZM1.875 36.25H10.625C10.7908 36.25 10.9497 36.1842 11.0669 36.0669C11.1842 35.9497 11.25 35.7908 11.25 35.625V30C11.2518 29.3431 11.1233 28.6924 10.8719 28.0855C10.6206 27.4786 10.2514 26.9276 9.78562 26.4644C9.39762 26.0781 8.94898 25.7581 8.4575 25.5169C9.27812 24.9175 9.85563 24.0038 9.97375 22.9319C9.9925 22.79 10 22.6481 10 22.5C10 22.3775 9.99312 22.2612 9.98187 22.1562C9.80562 20.2463 8.16687 18.75 6.25 18.75C4.33313 18.75 2.69438 20.2463 2.51938 22.145C2.50652 22.2629 2.50005 22.3814 2.5 22.5C2.5 22.6481 2.5075 22.79 2.52437 22.9169C2.64375 23.9988 3.22312 24.9175 4.04625 25.5181C2.39313 26.335 1.25 28.0344 1.25 30V35.625C1.25 35.7908 1.31585 35.9497 1.43306 36.0669C1.55027 36.1842 1.70924 36.25 1.875 36.25ZM6.25 20C7.0525 20 7.78125 20.3944 8.24188 21.0056C7.59874 20.7557 6.91499 20.6267 6.225 20.625C5.55 20.625 4.89688 20.7456 4.28313 20.9725C4.51569 20.6718 4.81365 20.4279 5.15442 20.2594C5.4952 20.091 5.86985 20.0022 6.25 20ZM3.765 22.7662C3.76063 22.7312 3.76125 22.6944 3.75875 22.6594C4.48036 22.15 5.34173 21.8761 6.225 21.875C7.14375 21.875 8.0025 22.165 8.73812 22.6919C8.73562 22.7219 8.73688 22.7488 8.7325 22.7806C8.59375 24.0456 7.52625 25 6.25 25C4.97375 25 3.90625 24.0456 3.765 22.7662ZM6.8375 30.5525L6.25 31.7275L5.6625 30.5525L6.25 28.2019L6.8375 30.5525ZM2.5 30C2.5 28.2156 3.75375 26.7206 5.42625 26.3444L4.39375 30.4731C4.35728 30.6179 4.37391 30.7709 4.44062 30.9044L5.69062 33.4044C5.74263 33.5082 5.82249 33.5955 5.92128 33.6565C6.02007 33.7175 6.13389 33.7498 6.25 33.7498C6.36611 33.7498 6.47993 33.7175 6.57872 33.6565C6.67751 33.5955 6.75737 33.5082 6.80938 33.4044L8.05938 30.9044C8.12609 30.7709 8.14272 30.6179 8.10625 30.4731L7.07375 26.3431C7.76636 26.4969 8.40062 26.8454 8.90188 27.3475C9.25113 27.6951 9.528 28.1085 9.71649 28.5638C9.90498 29.0191 10.0013 29.5072 10 30V35H2.5V30ZM28.75 13.125C28.9158 13.125 29.0747 13.0592 29.1919 12.9419C29.3092 12.8247 29.375 12.6658 29.375 12.5V8.75C29.375 8.58424 29.3092 8.42527 29.1919 8.30806C29.0747 8.19085 28.9158 8.125 28.75 8.125H27.0669C26.9788 7.875 26.8781 7.63062 26.7663 7.395L27.955 6.20563C28.0131 6.14763 28.0592 6.07876 28.0906 6.00293C28.1221 5.92711 28.1383 5.84583 28.1383 5.76375C28.1383 5.68167 28.1221 5.60039 28.0906 5.52457C28.0592 5.44874 28.0131 5.37987 27.955 5.32188L25.3037 2.67C25.1843 2.55722 25.0262 2.4944 24.8619 2.4944C24.6976 2.4944 24.5395 2.55722 24.42 2.67L23.2306 3.85938C22.9937 3.74688 22.75 3.64625 22.5 3.55813V1.875C22.5 1.70924 22.4342 1.55027 22.3169 1.43306C22.1997 1.31585 22.0408 1.25 21.875 1.25H18.125C17.9592 1.25 17.8003 1.31585 17.6831 1.43306C17.5658 1.55027 17.5 1.70924 17.5 1.875V3.55813C17.25 3.64625 17.0063 3.74687 16.77 3.85875L15.5806 2.66937C15.4611 2.5566 15.3031 2.49377 15.1388 2.49377C14.9744 2.49377 14.8164 2.5566 14.6969 2.66937L12.0456 5.32125C11.9875 5.37924 11.9414 5.44812 11.91 5.52394C11.8786 5.59976 11.8624 5.68104 11.8624 5.76312C11.8624 5.84521 11.8786 5.92649 11.91 6.00231C11.9414 6.07813 11.9875 6.14701 12.0456 6.205L13.2344 7.39438C13.1219 7.63063 13.0212 7.87437 12.9338 8.12437H11.25C11.0842 8.12437 10.9253 8.19022 10.8081 8.30743C10.6908 8.42464 10.625 8.58361 10.625 8.74937V12.4994C10.625 12.6651 10.6908 12.8241 10.8081 12.9413C10.9253 13.0585 11.0842 13.1244 11.25 13.1244H12.9331C13.0213 13.3744 13.1219 13.6187 13.2337 13.8544L12.045 15.0437C11.9869 15.1017 11.9408 15.1706 11.9094 15.2464C11.8779 15.3223 11.8617 15.4035 11.8617 15.4856C11.8617 15.5677 11.8779 15.649 11.9094 15.7248C11.9408 15.8006 11.9869 15.8695 12.045 15.9275L14.6962 18.5794C14.8157 18.6922 14.9738 18.755 15.1381 18.755C15.3024 18.755 15.4605 18.6922 15.58 18.5794L16.7694 17.39C17.0056 17.5025 17.2494 17.6031 17.4994 17.6906V19.375C17.4994 19.5408 17.5652 19.6997 17.6824 19.8169C17.7996 19.9342 17.9586 20 18.1244 20H21.8744C22.0401 20 22.1991 19.9342 22.3163 19.8169C22.4335 19.6997 22.4994 19.5408 22.4994 19.375V17.6919C22.7494 17.6038 22.9931 17.5031 23.2294 17.3913L24.4188 18.5806C24.5382 18.6934 24.6963 18.7562 24.8606 18.7562C25.0249 18.7562 25.183 18.6934 25.3025 18.5806L27.9538 15.9288C28.0118 15.8708 28.0579 15.8019 28.0894 15.7261C28.1208 15.6502 28.137 15.569 28.137 15.4869C28.137 15.4048 28.1208 15.3235 28.0894 15.2477C28.0579 15.1719 28.0118 15.103 27.9538 15.045L26.765 13.8556C26.8775 13.6194 26.9781 13.3756 27.0656 13.1256L28.75 13.125ZM25.5594 14.4163L26.6294 15.4862L24.8619 17.2544L23.7919 16.1844C23.6955 16.0884 23.5705 16.0264 23.4358 16.0076C23.3011 15.9889 23.1639 16.0145 23.045 16.0806C22.6214 16.3163 22.1717 16.5018 21.705 16.6331C21.574 16.6701 21.4587 16.7489 21.3766 16.8574C21.2945 16.9659 21.25 17.0983 21.25 17.2344V18.75H18.75V17.2344C18.75 17.0983 18.7055 16.9659 18.6234 16.8574C18.5413 16.7489 18.426 16.6701 18.295 16.6331C17.8283 16.5018 17.3786 16.3163 16.955 16.0806C16.8361 16.0144 16.699 15.9888 16.5642 16.0075C16.4294 16.0262 16.3045 16.0883 16.2081 16.1844L15.1381 17.2544L13.3706 15.4862L14.4406 14.4163C14.6381 14.2188 14.6806 13.9131 14.5444 13.6694C14.3085 13.2458 14.1228 12.7961 13.9913 12.3294C13.9543 12.1985 13.8757 12.0833 13.7673 12.0013C13.6588 11.9193 13.5266 11.8749 13.3906 11.875H11.875V9.375H13.3906C13.5266 9.375 13.6589 9.33063 13.7674 9.24863C13.8759 9.16663 13.9547 9.05147 13.9919 8.92062C14.1234 8.45395 14.3091 8.00423 14.545 7.58062C14.6114 7.46181 14.6372 7.32458 14.6184 7.18978C14.5997 7.05498 14.5375 6.92997 14.4413 6.83375L13.3712 5.76375L15.1388 3.99563L16.2087 5.06562C16.305 5.16188 16.43 5.22409 16.5648 5.24282C16.6996 5.26155 16.8368 5.23576 16.9556 5.16937C17.3793 4.93366 17.829 4.74823 18.2956 4.61688C18.4265 4.57974 18.5416 4.50095 18.6236 4.39244C18.7056 4.28393 18.75 4.15163 18.75 4.01562V2.5H21.25V4.01562C21.25 4.15171 21.2945 4.28407 21.3766 4.39259C21.4587 4.50111 21.574 4.57986 21.705 4.61688C22.1717 4.74823 22.6214 4.93366 23.045 5.16937C23.1638 5.23596 23.301 5.26187 23.4359 5.24314C23.5707 5.2244 23.6958 5.16206 23.7919 5.06562L24.8619 3.99563L26.6294 5.76375L25.5594 6.83375C25.4632 6.93002 25.4011 7.05502 25.3823 7.1898C25.3636 7.32458 25.3893 7.46179 25.4556 7.58062C25.6881 7.99625 25.8744 8.44687 26.0087 8.92062C26.0844 9.18937 26.33 9.375 26.6094 9.375H28.125V11.875H26.6094C26.4734 11.875 26.3411 11.9194 26.2326 12.0014C26.1241 12.0834 26.0453 12.1985 26.0081 12.3294C25.8765 12.7961 25.6909 13.2458 25.455 13.6694C25.3194 13.9138 25.3612 14.2188 25.5594 14.4163Z" fill="white"/>
+                                       <path d="M20 5.625C17.2431 5.625 15 7.86813 15 10.625C15 13.3819 17.2431 15.625 20 15.625C22.7569 15.625 25 13.3819 25 10.625C25 7.86813 22.7569 5.625 20 5.625ZM20 14.375C17.9319 14.375 16.25 12.6931 16.25 10.625C16.25 8.55687 17.9319 6.875 20 6.875C22.0681 6.875 23.75 8.55687 23.75 10.625C23.75 12.6931 22.0681 14.375 20 14.375ZM5.625 10.625V17.5H6.875V11.25H9.375V10H6.25C6.08424 10 5.92527 10.0658 5.80806 10.1831C5.69085 10.3003 5.625 10.4592 5.625 10.625ZM34.375 17.5V10.625C34.375 10.4592 34.3092 10.3003 34.1919 10.1831C34.0747 10.0658 33.9158 10 33.75 10H30.625V11.25H33.125V17.5H34.375Z" fill="white"/>
+                                    </svg>
+                                 </span>
+                                </div>
+                                <div class="tp-service-item-content">
+                                    <h4 class="tp-service-item-title">J&K Bank</h4>
+                                    <p>J&K Bank has successfully joined us to bring innovation and
+                                        improve lives in remote areas through VATM,
+                                        providing access to financial services where ATMs were
+                                        previously unavailable.</div>
+                                <div class="tp-service-item-thumb">
+                                    <img src="assets/img/bank/jandk.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tp-service-item-wrapper p-relative">
+                                <div class="tp-service-item-icon">
+                                <span>
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15 32.5V38.125C15 38.2908 15.0658 38.4497 15.1831 38.5669C15.3003 38.6842 15.4592 38.75 15.625 38.75H24.375C24.5408 38.75 24.6997 38.6842 24.8169 38.5669C24.9342 38.4497 25 38.2908 25 38.125V32.5C25.0018 31.8431 24.8733 31.1924 24.6219 30.5855C24.3706 29.9786 24.0014 29.4276 23.5356 28.9644C23.1476 28.5781 22.699 28.2581 22.2075 28.0169C23.0281 27.4175 23.6056 26.5038 23.7238 25.4319C23.7425 25.29 23.75 25.1481 23.75 25C23.75 24.8775 23.7431 24.7612 23.7319 24.6562C23.5556 22.7463 21.9169 21.25 20 21.25C18.0831 21.25 16.4444 22.7463 16.2694 24.645C16.2565 24.7629 16.2501 24.8814 16.25 25C16.25 25.1481 16.2575 25.29 16.2744 25.4169C16.3938 26.4988 16.9731 27.4175 17.7963 28.0181C16.1431 28.835 15 30.5344 15 32.5ZM20 22.5C20.8025 22.5 21.5312 22.8944 21.9919 23.5056C21.3487 23.2557 20.665 23.1267 19.975 23.125C19.3 23.125 18.6469 23.2456 18.0331 23.4725C18.2657 23.1718 18.5636 22.9279 18.9044 22.7594C19.2452 22.591 19.6199 22.5022 20 22.5ZM17.515 25.2662C17.5106 25.2312 17.5112 25.1944 17.5088 25.1594C18.2304 24.65 19.0917 24.3761 19.975 24.375C20.8937 24.375 21.7525 24.665 22.4881 25.1919C22.4856 25.2219 22.4869 25.2488 22.4825 25.2806C22.3438 26.5456 21.2763 27.5 20 27.5C18.7237 27.5 17.6562 26.5456 17.515 25.2662ZM20.5875 33.0525L20 34.2275L19.4125 33.0525L20 30.7019L20.5875 33.0525ZM19.1763 28.8444L18.1438 32.9737C18.1073 33.1185 18.1239 33.2715 18.1906 33.405L19.4406 35.905C19.4928 36.0086 19.5728 36.0956 19.6716 36.1565C19.7704 36.2173 19.8842 36.2494 20.0002 36.2494C20.1162 36.2493 20.2299 36.217 20.3287 36.1561C20.4274 36.0952 20.5073 36.008 20.5594 35.9044L21.8094 33.4044C21.8761 33.2709 21.8927 33.1179 21.8563 32.9731L20.8237 28.8431C21.5164 28.9969 22.1506 29.3454 22.6519 29.8475C23.0011 30.1951 23.278 30.6085 23.4665 31.0638C23.655 31.5191 23.7513 32.0072 23.75 32.5V37.5H16.25V32.5C16.25 30.7156 17.5037 29.2206 19.1763 28.8444ZM37.2856 26.4644C36.8976 26.0781 36.449 25.7581 35.9575 25.5169C36.7781 24.9175 37.3556 24.0038 37.4738 22.9319C37.4925 22.79 37.5 22.6481 37.5 22.5C37.5 22.3775 37.4931 22.2612 37.4819 22.1562C37.3056 20.2463 35.6669 18.75 33.75 18.75C31.8331 18.75 30.1944 20.2463 30.0194 22.145C30.0065 22.2629 30 22.3814 30 22.5C30 22.6481 30.0075 22.79 30.0244 22.9169C30.1438 23.9988 30.7231 24.9175 31.5462 25.5181C29.8931 26.335 28.75 28.0344 28.75 30V35.625C28.75 35.7908 28.8158 35.9497 28.9331 36.0669C29.0503 36.1842 29.2092 36.25 29.375 36.25H38.125C38.2908 36.25 38.4497 36.1842 38.5669 36.0669C38.6842 35.9497 38.75 35.7908 38.75 35.625V30C38.7518 29.3431 38.6233 28.6924 38.3719 28.0855C38.1206 27.4786 37.7514 26.9276 37.2856 26.4644ZM33.75 20C34.5525 20 35.2812 20.3944 35.7419 21.0056C35.0987 20.7557 34.415 20.6267 33.725 20.625C33.05 20.625 32.3969 20.7456 31.7831 20.9725C32.0157 20.6718 32.3136 20.4279 32.6544 20.2594C32.9952 20.091 33.3699 20.0022 33.75 20ZM31.265 22.7662C31.2606 22.7312 31.2612 22.6944 31.2588 22.6594C31.9804 22.15 32.8417 21.8761 33.725 21.875C34.6437 21.875 35.5025 22.165 36.2381 22.6919C36.2356 22.7219 36.2369 22.7488 36.2325 22.7806C36.0938 24.0456 35.0262 25 33.75 25C32.4737 25 31.4062 24.0456 31.265 22.7662ZM34.3375 30.5525L33.75 31.7275L33.1625 30.5525L33.75 28.2019L34.3375 30.5525ZM37.5 35H30V30C30 28.2156 31.2537 26.7206 32.9263 26.3444L31.8937 30.4737C31.8573 30.6185 31.8739 30.7715 31.9406 30.905L33.1906 33.405C33.2428 33.5086 33.3228 33.5956 33.4216 33.6565C33.5204 33.7173 33.6342 33.7494 33.7502 33.7494C33.8662 33.7493 33.9799 33.717 34.0787 33.6561C34.1774 33.5952 34.2573 33.508 34.3094 33.4044L35.5594 30.9044C35.6261 30.7709 35.6427 30.6179 35.6063 30.4731L34.5737 26.3431C35.2664 26.4969 35.9006 26.8454 36.4019 27.3475C36.7511 27.6951 37.028 28.1085 37.2165 28.5638C37.405 29.0191 37.5013 29.5072 37.5 30V35ZM1.875 36.25H10.625C10.7908 36.25 10.9497 36.1842 11.0669 36.0669C11.1842 35.9497 11.25 35.7908 11.25 35.625V30C11.2518 29.3431 11.1233 28.6924 10.8719 28.0855C10.6206 27.4786 10.2514 26.9276 9.78562 26.4644C9.39762 26.0781 8.94898 25.7581 8.4575 25.5169C9.27812 24.9175 9.85563 24.0038 9.97375 22.9319C9.9925 22.79 10 22.6481 10 22.5C10 22.3775 9.99312 22.2612 9.98187 22.1562C9.80562 20.2463 8.16687 18.75 6.25 18.75C4.33313 18.75 2.69438 20.2463 2.51938 22.145C2.50652 22.2629 2.50005 22.3814 2.5 22.5C2.5 22.6481 2.5075 22.79 2.52437 22.9169C2.64375 23.9988 3.22312 24.9175 4.04625 25.5181C2.39313 26.335 1.25 28.0344 1.25 30V35.625C1.25 35.7908 1.31585 35.9497 1.43306 36.0669C1.55027 36.1842 1.70924 36.25 1.875 36.25ZM6.25 20C7.0525 20 7.78125 20.3944 8.24188 21.0056C7.59874 20.7557 6.91499 20.6267 6.225 20.625C5.55 20.625 4.89688 20.7456 4.28313 20.9725C4.51569 20.6718 4.81365 20.4279 5.15442 20.2594C5.4952 20.091 5.86985 20.0022 6.25 20ZM3.765 22.7662C3.76063 22.7312 3.76125 22.6944 3.75875 22.6594C4.48036 22.15 5.34173 21.8761 6.225 21.875C7.14375 21.875 8.0025 22.165 8.73812 22.6919C8.73562 22.7219 8.73688 22.7488 8.7325 22.7806C8.59375 24.0456 7.52625 25 6.25 25C4.97375 25 3.90625 24.0456 3.765 22.7662ZM6.8375 30.5525L6.25 31.7275L5.6625 30.5525L6.25 28.2019L6.8375 30.5525ZM2.5 30C2.5 28.2156 3.75375 26.7206 5.42625 26.3444L4.39375 30.4731C4.35728 30.6179 4.37391 30.7709 4.44062 30.9044L5.69062 33.4044C5.74263 33.5082 5.82249 33.5955 5.92128 33.6565C6.02007 33.7175 6.13389 33.7498 6.25 33.7498C6.36611 33.7498 6.47993 33.7175 6.57872 33.6565C6.67751 33.5955 6.75737 33.5082 6.80938 33.4044L8.05938 30.9044C8.12609 30.7709 8.14272 30.6179 8.10625 30.4731L7.07375 26.3431C7.76636 26.4969 8.40062 26.8454 8.90188 27.3475C9.25113 27.6951 9.528 28.1085 9.71649 28.5638C9.90498 29.0191 10.0013 29.5072 10 30V35H2.5V30ZM28.75 13.125C28.9158 13.125 29.0747 13.0592 29.1919 12.9419C29.3092 12.8247 29.375 12.6658 29.375 12.5V8.75C29.375 8.58424 29.3092 8.42527 29.1919 8.30806C29.0747 8.19085 28.9158 8.125 28.75 8.125H27.0669C26.9788 7.875 26.8781 7.63062 26.7663 7.395L27.955 6.20563C28.0131 6.14763 28.0592 6.07876 28.0906 6.00293C28.1221 5.92711 28.1383 5.84583 28.1383 5.76375C28.1383 5.68167 28.1221 5.60039 28.0906 5.52457C28.0592 5.44874 28.0131 5.37987 27.955 5.32188L25.3037 2.67C25.1843 2.55722 25.0262 2.4944 24.8619 2.4944C24.6976 2.4944 24.5395 2.55722 24.42 2.67L23.2306 3.85938C22.9937 3.74688 22.75 3.64625 22.5 3.55813V1.875C22.5 1.70924 22.4342 1.55027 22.3169 1.43306C22.1997 1.31585 22.0408 1.25 21.875 1.25H18.125C17.9592 1.25 17.8003 1.31585 17.6831 1.43306C17.5658 1.55027 17.5 1.70924 17.5 1.875V3.55813C17.25 3.64625 17.0063 3.74687 16.77 3.85875L15.5806 2.66937C15.4611 2.5566 15.3031 2.49377 15.1388 2.49377C14.9744 2.49377 14.8164 2.5566 14.6969 2.66937L12.0456 5.32125C11.9875 5.37924 11.9414 5.44812 11.91 5.52394C11.8786 5.59976 11.8624 5.68104 11.8624 5.76312C11.8624 5.84521 11.8786 5.92649 11.91 6.00231C11.9414 6.07813 11.9875 6.14701 12.0456 6.205L13.2344 7.39438C13.1219 7.63063 13.0212 7.87437 12.9338 8.12437H11.25C11.0842 8.12437 10.9253 8.19022 10.8081 8.30743C10.6908 8.42464 10.625 8.58361 10.625 8.74937V12.4994C10.625 12.6651 10.6908 12.8241 10.8081 12.9413C10.9253 13.0585 11.0842 13.1244 11.25 13.1244H12.9331C13.0213 13.3744 13.1219 13.6187 13.2337 13.8544L12.045 15.0437C11.9869 15.1017 11.9408 15.1706 11.9094 15.2464C11.8779 15.3223 11.8617 15.4035 11.8617 15.4856C11.8617 15.5677 11.8779 15.649 11.9094 15.7248C11.9408 15.8006 11.9869 15.8695 12.045 15.9275L14.6962 18.5794C14.8157 18.6922 14.9738 18.755 15.1381 18.755C15.3024 18.755 15.4605 18.6922 15.58 18.5794L16.7694 17.39C17.0056 17.5025 17.2494 17.6031 17.4994 17.6906V19.375C17.4994 19.5408 17.5652 19.6997 17.6824 19.8169C17.7996 19.9342 17.9586 20 18.1244 20H21.8744C22.0401 20 22.1991 19.9342 22.3163 19.8169C22.4335 19.6997 22.4994 19.5408 22.4994 19.375V17.6919C22.7494 17.6038 22.9931 17.5031 23.2294 17.3913L24.4188 18.5806C24.5382 18.6934 24.6963 18.7562 24.8606 18.7562C25.0249 18.7562 25.183 18.6934 25.3025 18.5806L27.9538 15.9288C28.0118 15.8708 28.0579 15.8019 28.0894 15.7261C28.1208 15.6502 28.137 15.569 28.137 15.4869C28.137 15.4048 28.1208 15.3235 28.0894 15.2477C28.0579 15.1719 28.0118 15.103 27.9538 15.045L26.765 13.8556C26.8775 13.6194 26.9781 13.3756 27.0656 13.1256L28.75 13.125ZM25.5594 14.4163L26.6294 15.4862L24.8619 17.2544L23.7919 16.1844C23.6955 16.0884 23.5705 16.0264 23.4358 16.0076C23.3011 15.9889 23.1639 16.0145 23.045 16.0806C22.6214 16.3163 22.1717 16.5018 21.705 16.6331C21.574 16.6701 21.4587 16.7489 21.3766 16.8574C21.2945 16.9659 21.25 17.0983 21.25 17.2344V18.75H18.75V17.2344C18.75 17.0983 18.7055 16.9659 18.6234 16.8574C18.5413 16.7489 18.426 16.6701 18.295 16.6331C17.8283 16.5018 17.3786 16.3163 16.955 16.0806C16.8361 16.0144 16.699 15.9888 16.5642 16.0075C16.4294 16.0262 16.3045 16.0883 16.2081 16.1844L15.1381 17.2544L13.3706 15.4862L14.4406 14.4163C14.6381 14.2188 14.6806 13.9131 14.5444 13.6694C14.3085 13.2458 14.1228 12.7961 13.9913 12.3294C13.9543 12.1985 13.8757 12.0833 13.7673 12.0013C13.6588 11.9193 13.5266 11.8749 13.3906 11.875H11.875V9.375H13.3906C13.5266 9.375 13.6589 9.33063 13.7674 9.24863C13.8759 9.16663 13.9547 9.05147 13.9919 8.92062C14.1234 8.45395 14.3091 8.00423 14.545 7.58062C14.6114 7.46181 14.6372 7.32458 14.6184 7.18978C14.5997 7.05498 14.5375 6.92997 14.4413 6.83375L13.3712 5.76375L15.1388 3.99563L16.2087 5.06562C16.305 5.16188 16.43 5.22409 16.5648 5.24282C16.6996 5.26155 16.8368 5.23576 16.9556 5.16937C17.3793 4.93366 17.829 4.74823 18.2956 4.61688C18.4265 4.57974 18.5416 4.50095 18.6236 4.39244C18.7056 4.28393 18.75 4.15163 18.75 4.01562V2.5H21.25V4.01562C21.25 4.15171 21.2945 4.28407 21.3766 4.39259C21.4587 4.50111 21.574 4.57986 21.705 4.61688C22.1717 4.74823 22.6214 4.93366 23.045 5.16937C23.1638 5.23596 23.301 5.26187 23.4359 5.24314C23.5707 5.2244 23.6958 5.16206 23.7919 5.06562L24.8619 3.99563L26.6294 5.76375L25.5594 6.83375C25.4632 6.93002 25.4011 7.05502 25.3823 7.1898C25.3636 7.32458 25.3893 7.46179 25.4556 7.58062C25.6881 7.99625 25.8744 8.44687 26.0087 8.92062C26.0844 9.18937 26.33 9.375 26.6094 9.375H28.125V11.875H26.6094C26.4734 11.875 26.3411 11.9194 26.2326 12.0014C26.1241 12.0834 26.0453 12.1985 26.0081 12.3294C25.8765 12.7961 25.6909 13.2458 25.455 13.6694C25.3194 13.9138 25.3612 14.2188 25.5594 14.4163Z" fill="white"/>
+                                       <path d="M20 5.625C17.2431 5.625 15 7.86813 15 10.625C15 13.3819 17.2431 15.625 20 15.625C22.7569 15.625 25 13.3819 25 10.625C25 7.86813 22.7569 5.625 20 5.625ZM20 14.375C17.9319 14.375 16.25 12.6931 16.25 10.625C16.25 8.55687 17.9319 6.875 20 6.875C22.0681 6.875 23.75 8.55687 23.75 10.625C23.75 12.6931 22.0681 14.375 20 14.375ZM5.625 10.625V17.5H6.875V11.25H9.375V10H6.25C6.08424 10 5.92527 10.0658 5.80806 10.1831C5.69085 10.3003 5.625 10.4592 5.625 10.625ZM34.375 17.5V10.625C34.375 10.4592 34.3092 10.3003 34.1919 10.1831C34.0747 10.0658 33.9158 10 33.75 10H30.625V11.25H33.125V17.5H34.375Z" fill="white"/>
+                                    </svg>
+                                 </span>
+                                </div>
+                                <div class="tp-service-item-content">
+                                    <h4 class="tp-service-item-title">IDBI Bank</h4>
+                                    <p>DBI Bank is now integrated with our systems, working with
+                                        us to revolutionize ATM operations in India by enhancing convenience,
+                                        security, and smart banking solutions.</p>
+                                </div>
+                                <div class="tp-service-item-thumb">
+                                    <img src="assets/img/bank/idbi.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tp-service-item-wrapper p-relative">
+                                <div class="tp-service-item-icon">
+                                <span>
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15 32.5V38.125C15 38.2908 15.0658 38.4497 15.1831 38.5669C15.3003 38.6842 15.4592 38.75 15.625 38.75H24.375C24.5408 38.75 24.6997 38.6842 24.8169 38.5669C24.9342 38.4497 25 38.2908 25 38.125V32.5C25.0018 31.8431 24.8733 31.1924 24.6219 30.5855C24.3706 29.9786 24.0014 29.4276 23.5356 28.9644C23.1476 28.5781 22.699 28.2581 22.2075 28.0169C23.0281 27.4175 23.6056 26.5038 23.7238 25.4319C23.7425 25.29 23.75 25.1481 23.75 25C23.75 24.8775 23.7431 24.7612 23.7319 24.6562C23.5556 22.7463 21.9169 21.25 20 21.25C18.0831 21.25 16.4444 22.7463 16.2694 24.645C16.2565 24.7629 16.2501 24.8814 16.25 25C16.25 25.1481 16.2575 25.29 16.2744 25.4169C16.3938 26.4988 16.9731 27.4175 17.7963 28.0181C16.1431 28.835 15 30.5344 15 32.5ZM20 22.5C20.8025 22.5 21.5312 22.8944 21.9919 23.5056C21.3487 23.2557 20.665 23.1267 19.975 23.125C19.3 23.125 18.6469 23.2456 18.0331 23.4725C18.2657 23.1718 18.5636 22.9279 18.9044 22.7594C19.2452 22.591 19.6199 22.5022 20 22.5ZM17.515 25.2662C17.5106 25.2312 17.5112 25.1944 17.5088 25.1594C18.2304 24.65 19.0917 24.3761 19.975 24.375C20.8937 24.375 21.7525 24.665 22.4881 25.1919C22.4856 25.2219 22.4869 25.2488 22.4825 25.2806C22.3438 26.5456 21.2763 27.5 20 27.5C18.7237 27.5 17.6562 26.5456 17.515 25.2662ZM20.5875 33.0525L20 34.2275L19.4125 33.0525L20 30.7019L20.5875 33.0525ZM19.1763 28.8444L18.1438 32.9737C18.1073 33.1185 18.1239 33.2715 18.1906 33.405L19.4406 35.905C19.4928 36.0086 19.5728 36.0956 19.6716 36.1565C19.7704 36.2173 19.8842 36.2494 20.0002 36.2494C20.1162 36.2493 20.2299 36.217 20.3287 36.1561C20.4274 36.0952 20.5073 36.008 20.5594 35.9044L21.8094 33.4044C21.8761 33.2709 21.8927 33.1179 21.8563 32.9731L20.8237 28.8431C21.5164 28.9969 22.1506 29.3454 22.6519 29.8475C23.0011 30.1951 23.278 30.6085 23.4665 31.0638C23.655 31.5191 23.7513 32.0072 23.75 32.5V37.5H16.25V32.5C16.25 30.7156 17.5037 29.2206 19.1763 28.8444ZM37.2856 26.4644C36.8976 26.0781 36.449 25.7581 35.9575 25.5169C36.7781 24.9175 37.3556 24.0038 37.4738 22.9319C37.4925 22.79 37.5 22.6481 37.5 22.5C37.5 22.3775 37.4931 22.2612 37.4819 22.1562C37.3056 20.2463 35.6669 18.75 33.75 18.75C31.8331 18.75 30.1944 20.2463 30.0194 22.145C30.0065 22.2629 30 22.3814 30 22.5C30 22.6481 30.0075 22.79 30.0244 22.9169C30.1438 23.9988 30.7231 24.9175 31.5462 25.5181C29.8931 26.335 28.75 28.0344 28.75 30V35.625C28.75 35.7908 28.8158 35.9497 28.9331 36.0669C29.0503 36.1842 29.2092 36.25 29.375 36.25H38.125C38.2908 36.25 38.4497 36.1842 38.5669 36.0669C38.6842 35.9497 38.75 35.7908 38.75 35.625V30C38.7518 29.3431 38.6233 28.6924 38.3719 28.0855C38.1206 27.4786 37.7514 26.9276 37.2856 26.4644ZM33.75 20C34.5525 20 35.2812 20.3944 35.7419 21.0056C35.0987 20.7557 34.415 20.6267 33.725 20.625C33.05 20.625 32.3969 20.7456 31.7831 20.9725C32.0157 20.6718 32.3136 20.4279 32.6544 20.2594C32.9952 20.091 33.3699 20.0022 33.75 20ZM31.265 22.7662C31.2606 22.7312 31.2612 22.6944 31.2588 22.6594C31.9804 22.15 32.8417 21.8761 33.725 21.875C34.6437 21.875 35.5025 22.165 36.2381 22.6919C36.2356 22.7219 36.2369 22.7488 36.2325 22.7806C36.0938 24.0456 35.0262 25 33.75 25C32.4737 25 31.4062 24.0456 31.265 22.7662ZM34.3375 30.5525L33.75 31.7275L33.1625 30.5525L33.75 28.2019L34.3375 30.5525ZM37.5 35H30V30C30 28.2156 31.2537 26.7206 32.9263 26.3444L31.8937 30.4737C31.8573 30.6185 31.8739 30.7715 31.9406 30.905L33.1906 33.405C33.2428 33.5086 33.3228 33.5956 33.4216 33.6565C33.5204 33.7173 33.6342 33.7494 33.7502 33.7494C33.8662 33.7493 33.9799 33.717 34.0787 33.6561C34.1774 33.5952 34.2573 33.508 34.3094 33.4044L35.5594 30.9044C35.6261 30.7709 35.6427 30.6179 35.6063 30.4731L34.5737 26.3431C35.2664 26.4969 35.9006 26.8454 36.4019 27.3475C36.7511 27.6951 37.028 28.1085 37.2165 28.5638C37.405 29.0191 37.5013 29.5072 37.5 30V35ZM1.875 36.25H10.625C10.7908 36.25 10.9497 36.1842 11.0669 36.0669C11.1842 35.9497 11.25 35.7908 11.25 35.625V30C11.2518 29.3431 11.1233 28.6924 10.8719 28.0855C10.6206 27.4786 10.2514 26.9276 9.78562 26.4644C9.39762 26.0781 8.94898 25.7581 8.4575 25.5169C9.27812 24.9175 9.85563 24.0038 9.97375 22.9319C9.9925 22.79 10 22.6481 10 22.5C10 22.3775 9.99312 22.2612 9.98187 22.1562C9.80562 20.2463 8.16687 18.75 6.25 18.75C4.33313 18.75 2.69438 20.2463 2.51938 22.145C2.50652 22.2629 2.50005 22.3814 2.5 22.5C2.5 22.6481 2.5075 22.79 2.52437 22.9169C2.64375 23.9988 3.22312 24.9175 4.04625 25.5181C2.39313 26.335 1.25 28.0344 1.25 30V35.625C1.25 35.7908 1.31585 35.9497 1.43306 36.0669C1.55027 36.1842 1.70924 36.25 1.875 36.25ZM6.25 20C7.0525 20 7.78125 20.3944 8.24188 21.0056C7.59874 20.7557 6.91499 20.6267 6.225 20.625C5.55 20.625 4.89688 20.7456 4.28313 20.9725C4.51569 20.6718 4.81365 20.4279 5.15442 20.2594C5.4952 20.091 5.86985 20.0022 6.25 20ZM3.765 22.7662C3.76063 22.7312 3.76125 22.6944 3.75875 22.6594C4.48036 22.15 5.34173 21.8761 6.225 21.875C7.14375 21.875 8.0025 22.165 8.73812 22.6919C8.73562 22.7219 8.73688 22.7488 8.7325 22.7806C8.59375 24.0456 7.52625 25 6.25 25C4.97375 25 3.90625 24.0456 3.765 22.7662ZM6.8375 30.5525L6.25 31.7275L5.6625 30.5525L6.25 28.2019L6.8375 30.5525ZM2.5 30C2.5 28.2156 3.75375 26.7206 5.42625 26.3444L4.39375 30.4731C4.35728 30.6179 4.37391 30.7709 4.44062 30.9044L5.69062 33.4044C5.74263 33.5082 5.82249 33.5955 5.92128 33.6565C6.02007 33.7175 6.13389 33.7498 6.25 33.7498C6.36611 33.7498 6.47993 33.7175 6.57872 33.6565C6.67751 33.5955 6.75737 33.5082 6.80938 33.4044L8.05938 30.9044C8.12609 30.7709 8.14272 30.6179 8.10625 30.4731L7.07375 26.3431C7.76636 26.4969 8.40062 26.8454 8.90188 27.3475C9.25113 27.6951 9.528 28.1085 9.71649 28.5638C9.90498 29.0191 10.0013 29.5072 10 30V35H2.5V30ZM28.75 13.125C28.9158 13.125 29.0747 13.0592 29.1919 12.9419C29.3092 12.8247 29.375 12.6658 29.375 12.5V8.75C29.375 8.58424 29.3092 8.42527 29.1919 8.30806C29.0747 8.19085 28.9158 8.125 28.75 8.125H27.0669C26.9788 7.875 26.8781 7.63062 26.7663 7.395L27.955 6.20563C28.0131 6.14763 28.0592 6.07876 28.0906 6.00293C28.1221 5.92711 28.1383 5.84583 28.1383 5.76375C28.1383 5.68167 28.1221 5.60039 28.0906 5.52457C28.0592 5.44874 28.0131 5.37987 27.955 5.32188L25.3037 2.67C25.1843 2.55722 25.0262 2.4944 24.8619 2.4944C24.6976 2.4944 24.5395 2.55722 24.42 2.67L23.2306 3.85938C22.9937 3.74688 22.75 3.64625 22.5 3.55813V1.875C22.5 1.70924 22.4342 1.55027 22.3169 1.43306C22.1997 1.31585 22.0408 1.25 21.875 1.25H18.125C17.9592 1.25 17.8003 1.31585 17.6831 1.43306C17.5658 1.55027 17.5 1.70924 17.5 1.875V3.55813C17.25 3.64625 17.0063 3.74687 16.77 3.85875L15.5806 2.66937C15.4611 2.5566 15.3031 2.49377 15.1388 2.49377C14.9744 2.49377 14.8164 2.5566 14.6969 2.66937L12.0456 5.32125C11.9875 5.37924 11.9414 5.44812 11.91 5.52394C11.8786 5.59976 11.8624 5.68104 11.8624 5.76312C11.8624 5.84521 11.8786 5.92649 11.91 6.00231C11.9414 6.07813 11.9875 6.14701 12.0456 6.205L13.2344 7.39438C13.1219 7.63063 13.0212 7.87437 12.9338 8.12437H11.25C11.0842 8.12437 10.9253 8.19022 10.8081 8.30743C10.6908 8.42464 10.625 8.58361 10.625 8.74937V12.4994C10.625 12.6651 10.6908 12.8241 10.8081 12.9413C10.9253 13.0585 11.0842 13.1244 11.25 13.1244H12.9331C13.0213 13.3744 13.1219 13.6187 13.2337 13.8544L12.045 15.0437C11.9869 15.1017 11.9408 15.1706 11.9094 15.2464C11.8779 15.3223 11.8617 15.4035 11.8617 15.4856C11.8617 15.5677 11.8779 15.649 11.9094 15.7248C11.9408 15.8006 11.9869 15.8695 12.045 15.9275L14.6962 18.5794C14.8157 18.6922 14.9738 18.755 15.1381 18.755C15.3024 18.755 15.4605 18.6922 15.58 18.5794L16.7694 17.39C17.0056 17.5025 17.2494 17.6031 17.4994 17.6906V19.375C17.4994 19.5408 17.5652 19.6997 17.6824 19.8169C17.7996 19.9342 17.9586 20 18.1244 20H21.8744C22.0401 20 22.1991 19.9342 22.3163 19.8169C22.4335 19.6997 22.4994 19.5408 22.4994 19.375V17.6919C22.7494 17.6038 22.9931 17.5031 23.2294 17.3913L24.4188 18.5806C24.5382 18.6934 24.6963 18.7562 24.8606 18.7562C25.0249 18.7562 25.183 18.6934 25.3025 18.5806L27.9538 15.9288C28.0118 15.8708 28.0579 15.8019 28.0894 15.7261C28.1208 15.6502 28.137 15.569 28.137 15.4869C28.137 15.4048 28.1208 15.3235 28.0894 15.2477C28.0579 15.1719 28.0118 15.103 27.9538 15.045L26.765 13.8556C26.8775 13.6194 26.9781 13.3756 27.0656 13.1256L28.75 13.125ZM25.5594 14.4163L26.6294 15.4862L24.8619 17.2544L23.7919 16.1844C23.6955 16.0884 23.5705 16.0264 23.4358 16.0076C23.3011 15.9889 23.1639 16.0145 23.045 16.0806C22.6214 16.3163 22.1717 16.5018 21.705 16.6331C21.574 16.6701 21.4587 16.7489 21.3766 16.8574C21.2945 16.9659 21.25 17.0983 21.25 17.2344V18.75H18.75V17.2344C18.75 17.0983 18.7055 16.9659 18.6234 16.8574C18.5413 16.7489 18.426 16.6701 18.295 16.6331C17.8283 16.5018 17.3786 16.3163 16.955 16.0806C16.8361 16.0144 16.699 15.9888 16.5642 16.0075C16.4294 16.0262 16.3045 16.0883 16.2081 16.1844L15.1381 17.2544L13.3706 15.4862L14.4406 14.4163C14.6381 14.2188 14.6806 13.9131 14.5444 13.6694C14.3085 13.2458 14.1228 12.7961 13.9913 12.3294C13.9543 12.1985 13.8757 12.0833 13.7673 12.0013C13.6588 11.9193 13.5266 11.8749 13.3906 11.875H11.875V9.375H13.3906C13.5266 9.375 13.6589 9.33063 13.7674 9.24863C13.8759 9.16663 13.9547 9.05147 13.9919 8.92062C14.1234 8.45395 14.3091 8.00423 14.545 7.58062C14.6114 7.46181 14.6372 7.32458 14.6184 7.18978C14.5997 7.05498 14.5375 6.92997 14.4413 6.83375L13.3712 5.76375L15.1388 3.99563L16.2087 5.06562C16.305 5.16188 16.43 5.22409 16.5648 5.24282C16.6996 5.26155 16.8368 5.23576 16.9556 5.16937C17.3793 4.93366 17.829 4.74823 18.2956 4.61688C18.4265 4.57974 18.5416 4.50095 18.6236 4.39244C18.7056 4.28393 18.75 4.15163 18.75 4.01562V2.5H21.25V4.01562C21.25 4.15171 21.2945 4.28407 21.3766 4.39259C21.4587 4.50111 21.574 4.57986 21.705 4.61688C22.1717 4.74823 22.6214 4.93366 23.045 5.16937C23.1638 5.23596 23.301 5.26187 23.4359 5.24314C23.5707 5.2244 23.6958 5.16206 23.7919 5.06562L24.8619 3.99563L26.6294 5.76375L25.5594 6.83375C25.4632 6.93002 25.4011 7.05502 25.3823 7.1898C25.3636 7.32458 25.3893 7.46179 25.4556 7.58062C25.6881 7.99625 25.8744 8.44687 26.0087 8.92062C26.0844 9.18937 26.33 9.375 26.6094 9.375H28.125V11.875H26.6094C26.4734 11.875 26.3411 11.9194 26.2326 12.0014C26.1241 12.0834 26.0453 12.1985 26.0081 12.3294C25.8765 12.7961 25.6909 13.2458 25.455 13.6694C25.3194 13.9138 25.3612 14.2188 25.5594 14.4163Z" fill="white"/>
+                                       <path d="M20 5.625C17.2431 5.625 15 7.86813 15 10.625C15 13.3819 17.2431 15.625 20 15.625C22.7569 15.625 25 13.3819 25 10.625C25 7.86813 22.7569 5.625 20 5.625ZM20 14.375C17.9319 14.375 16.25 12.6931 16.25 10.625C16.25 8.55687 17.9319 6.875 20 6.875C22.0681 6.875 23.75 8.55687 23.75 10.625C23.75 12.6931 22.0681 14.375 20 14.375ZM5.625 10.625V17.5H6.875V11.25H9.375V10H6.25C6.08424 10 5.92527 10.0658 5.80806 10.1831C5.69085 10.3003 5.625 10.4592 5.625 10.625ZM34.375 17.5V10.625C34.375 10.4592 34.3092 10.3003 34.1919 10.1831C34.0747 10.0658 33.9158 10 33.75 10H30.625V11.25H33.125V17.5H34.375Z" fill="white"/>
+                                    </svg>
+                                 </span>
+                                </div>
+                                <div class="tp-service-item-content">
+                                    <h4 class="tp-service-item-title">Indian Bank</h4>
+                                    <p>Indian Bank is now integrated with our systems, partnering with us to
+                                        enhance ATM operations by improving convenience, security,
+                                        and delivering smarter banking across India..</p>
+                                    </div>
+                                    <div class="tp-service-item-thumb">
+                                    <img src="assets/img/bank/indianbank.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tp-service-item-wrapper p-relative">
+                                <div class="tp-service-item-icon">
+                                <span>
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15 32.5V38.125C15 38.2908 15.0658 38.4497 15.1831 38.5669C15.3003 38.6842 15.4592 38.75 15.625 38.75H24.375C24.5408 38.75 24.6997 38.6842 24.8169 38.5669C24.9342 38.4497 25 38.2908 25 38.125V32.5C25.0018 31.8431 24.8733 31.1924 24.6219 30.5855C24.3706 29.9786 24.0014 29.4276 23.5356 28.9644C23.1476 28.5781 22.699 28.2581 22.2075 28.0169C23.0281 27.4175 23.6056 26.5038 23.7238 25.4319C23.7425 25.29 23.75 25.1481 23.75 25C23.75 24.8775 23.7431 24.7612 23.7319 24.6562C23.5556 22.7463 21.9169 21.25 20 21.25C18.0831 21.25 16.4444 22.7463 16.2694 24.645C16.2565 24.7629 16.2501 24.8814 16.25 25C16.25 25.1481 16.2575 25.29 16.2744 25.4169C16.3938 26.4988 16.9731 27.4175 17.7963 28.0181C16.1431 28.835 15 30.5344 15 32.5ZM20 22.5C20.8025 22.5 21.5312 22.8944 21.9919 23.5056C21.3487 23.2557 20.665 23.1267 19.975 23.125C19.3 23.125 18.6469 23.2456 18.0331 23.4725C18.2657 23.1718 18.5636 22.9279 18.9044 22.7594C19.2452 22.591 19.6199 22.5022 20 22.5ZM17.515 25.2662C17.5106 25.2312 17.5112 25.1944 17.5088 25.1594C18.2304 24.65 19.0917 24.3761 19.975 24.375C20.8937 24.375 21.7525 24.665 22.4881 25.1919C22.4856 25.2219 22.4869 25.2488 22.4825 25.2806C22.3438 26.5456 21.2763 27.5 20 27.5C18.7237 27.5 17.6562 26.5456 17.515 25.2662ZM20.5875 33.0525L20 34.2275L19.4125 33.0525L20 30.7019L20.5875 33.0525ZM19.1763 28.8444L18.1438 32.9737C18.1073 33.1185 18.1239 33.2715 18.1906 33.405L19.4406 35.905C19.4928 36.0086 19.5728 36.0956 19.6716 36.1565C19.7704 36.2173 19.8842 36.2494 20.0002 36.2494C20.1162 36.2493 20.2299 36.217 20.3287 36.1561C20.4274 36.0952 20.5073 36.008 20.5594 35.9044L21.8094 33.4044C21.8761 33.2709 21.8927 33.1179 21.8563 32.9731L20.8237 28.8431C21.5164 28.9969 22.1506 29.3454 22.6519 29.8475C23.0011 30.1951 23.278 30.6085 23.4665 31.0638C23.655 31.5191 23.7513 32.0072 23.75 32.5V37.5H16.25V32.5C16.25 30.7156 17.5037 29.2206 19.1763 28.8444ZM37.2856 26.4644C36.8976 26.0781 36.449 25.7581 35.9575 25.5169C36.7781 24.9175 37.3556 24.0038 37.4738 22.9319C37.4925 22.79 37.5 22.6481 37.5 22.5C37.5 22.3775 37.4931 22.2612 37.4819 22.1562C37.3056 20.2463 35.6669 18.75 33.75 18.75C31.8331 18.75 30.1944 20.2463 30.0194 22.145C30.0065 22.2629 30 22.3814 30 22.5C30 22.6481 30.0075 22.79 30.0244 22.9169C30.1438 23.9988 30.7231 24.9175 31.5462 25.5181C29.8931 26.335 28.75 28.0344 28.75 30V35.625C28.75 35.7908 28.8158 35.9497 28.9331 36.0669C29.0503 36.1842 29.2092 36.25 29.375 36.25H38.125C38.2908 36.25 38.4497 36.1842 38.5669 36.0669C38.6842 35.9497 38.75 35.7908 38.75 35.625V30C38.7518 29.3431 38.6233 28.6924 38.3719 28.0855C38.1206 27.4786 37.7514 26.9276 37.2856 26.4644ZM33.75 20C34.5525 20 35.2812 20.3944 35.7419 21.0056C35.0987 20.7557 34.415 20.6267 33.725 20.625C33.05 20.625 32.3969 20.7456 31.7831 20.9725C32.0157 20.6718 32.3136 20.4279 32.6544 20.2594C32.9952 20.091 33.3699 20.0022 33.75 20ZM31.265 22.7662C31.2606 22.7312 31.2612 22.6944 31.2588 22.6594C31.9804 22.15 32.8417 21.8761 33.725 21.875C34.6437 21.875 35.5025 22.165 36.2381 22.6919C36.2356 22.7219 36.2369 22.7488 36.2325 22.7806C36.0938 24.0456 35.0262 25 33.75 25C32.4737 25 31.4062 24.0456 31.265 22.7662ZM34.3375 30.5525L33.75 31.7275L33.1625 30.5525L33.75 28.2019L34.3375 30.5525ZM37.5 35H30V30C30 28.2156 31.2537 26.7206 32.9263 26.3444L31.8937 30.4737C31.8573 30.6185 31.8739 30.7715 31.9406 30.905L33.1906 33.405C33.2428 33.5086 33.3228 33.5956 33.4216 33.6565C33.5204 33.7173 33.6342 33.7494 33.7502 33.7494C33.8662 33.7493 33.9799 33.717 34.0787 33.6561C34.1774 33.5952 34.2573 33.508 34.3094 33.4044L35.5594 30.9044C35.6261 30.7709 35.6427 30.6179 35.6063 30.4731L34.5737 26.3431C35.2664 26.4969 35.9006 26.8454 36.4019 27.3475C36.7511 27.6951 37.028 28.1085 37.2165 28.5638C37.405 29.0191 37.5013 29.5072 37.5 30V35ZM1.875 36.25H10.625C10.7908 36.25 10.9497 36.1842 11.0669 36.0669C11.1842 35.9497 11.25 35.7908 11.25 35.625V30C11.2518 29.3431 11.1233 28.6924 10.8719 28.0855C10.6206 27.4786 10.2514 26.9276 9.78562 26.4644C9.39762 26.0781 8.94898 25.7581 8.4575 25.5169C9.27812 24.9175 9.85563 24.0038 9.97375 22.9319C9.9925 22.79 10 22.6481 10 22.5C10 22.3775 9.99312 22.2612 9.98187 22.1562C9.80562 20.2463 8.16687 18.75 6.25 18.75C4.33313 18.75 2.69438 20.2463 2.51938 22.145C2.50652 22.2629 2.50005 22.3814 2.5 22.5C2.5 22.6481 2.5075 22.79 2.52437 22.9169C2.64375 23.9988 3.22312 24.9175 4.04625 25.5181C2.39313 26.335 1.25 28.0344 1.25 30V35.625C1.25 35.7908 1.31585 35.9497 1.43306 36.0669C1.55027 36.1842 1.70924 36.25 1.875 36.25ZM6.25 20C7.0525 20 7.78125 20.3944 8.24188 21.0056C7.59874 20.7557 6.91499 20.6267 6.225 20.625C5.55 20.625 4.89688 20.7456 4.28313 20.9725C4.51569 20.6718 4.81365 20.4279 5.15442 20.2594C5.4952 20.091 5.86985 20.0022 6.25 20ZM3.765 22.7662C3.76063 22.7312 3.76125 22.6944 3.75875 22.6594C4.48036 22.15 5.34173 21.8761 6.225 21.875C7.14375 21.875 8.0025 22.165 8.73812 22.6919C8.73562 22.7219 8.73688 22.7488 8.7325 22.7806C8.59375 24.0456 7.52625 25 6.25 25C4.97375 25 3.90625 24.0456 3.765 22.7662ZM6.8375 30.5525L6.25 31.7275L5.6625 30.5525L6.25 28.2019L6.8375 30.5525ZM2.5 30C2.5 28.2156 3.75375 26.7206 5.42625 26.3444L4.39375 30.4731C4.35728 30.6179 4.37391 30.7709 4.44062 30.9044L5.69062 33.4044C5.74263 33.5082 5.82249 33.5955 5.92128 33.6565C6.02007 33.7175 6.13389 33.7498 6.25 33.7498C6.36611 33.7498 6.47993 33.7175 6.57872 33.6565C6.67751 33.5955 6.75737 33.5082 6.80938 33.4044L8.05938 30.9044C8.12609 30.7709 8.14272 30.6179 8.10625 30.4731L7.07375 26.3431C7.76636 26.4969 8.40062 26.8454 8.90188 27.3475C9.25113 27.6951 9.528 28.1085 9.71649 28.5638C9.90498 29.0191 10.0013 29.5072 10 30V35H2.5V30ZM28.75 13.125C28.9158 13.125 29.0747 13.0592 29.1919 12.9419C29.3092 12.8247 29.375 12.6658 29.375 12.5V8.75C29.375 8.58424 29.3092 8.42527 29.1919 8.30806C29.0747 8.19085 28.9158 8.125 28.75 8.125H27.0669C26.9788 7.875 26.8781 7.63062 26.7663 7.395L27.955 6.20563C28.0131 6.14763 28.0592 6.07876 28.0906 6.00293C28.1221 5.92711 28.1383 5.84583 28.1383 5.76375C28.1383 5.68167 28.1221 5.60039 28.0906 5.52457C28.0592 5.44874 28.0131 5.37987 27.955 5.32188L25.3037 2.67C25.1843 2.55722 25.0262 2.4944 24.8619 2.4944C24.6976 2.4944 24.5395 2.55722 24.42 2.67L23.2306 3.85938C22.9937 3.74688 22.75 3.64625 22.5 3.55813V1.875C22.5 1.70924 22.4342 1.55027 22.3169 1.43306C22.1997 1.31585 22.0408 1.25 21.875 1.25H18.125C17.9592 1.25 17.8003 1.31585 17.6831 1.43306C17.5658 1.55027 17.5 1.70924 17.5 1.875V3.55813C17.25 3.64625 17.0063 3.74687 16.77 3.85875L15.5806 2.66937C15.4611 2.5566 15.3031 2.49377 15.1388 2.49377C14.9744 2.49377 14.8164 2.5566 14.6969 2.66937L12.0456 5.32125C11.9875 5.37924 11.9414 5.44812 11.91 5.52394C11.8786 5.59976 11.8624 5.68104 11.8624 5.76312C11.8624 5.84521 11.8786 5.92649 11.91 6.00231C11.9414 6.07813 11.9875 6.14701 12.0456 6.205L13.2344 7.39438C13.1219 7.63063 13.0212 7.87437 12.9338 8.12437H11.25C11.0842 8.12437 10.9253 8.19022 10.8081 8.30743C10.6908 8.42464 10.625 8.58361 10.625 8.74937V12.4994C10.625 12.6651 10.6908 12.8241 10.8081 12.9413C10.9253 13.0585 11.0842 13.1244 11.25 13.1244H12.9331C13.0213 13.3744 13.1219 13.6187 13.2337 13.8544L12.045 15.0437C11.9869 15.1017 11.9408 15.1706 11.9094 15.2464C11.8779 15.3223 11.8617 15.4035 11.8617 15.4856C11.8617 15.5677 11.8779 15.649 11.9094 15.7248C11.9408 15.8006 11.9869 15.8695 12.045 15.9275L14.6962 18.5794C14.8157 18.6922 14.9738 18.755 15.1381 18.755C15.3024 18.755 15.4605 18.6922 15.58 18.5794L16.7694 17.39C17.0056 17.5025 17.2494 17.6031 17.4994 17.6906V19.375C17.4994 19.5408 17.5652 19.6997 17.6824 19.8169C17.7996 19.9342 17.9586 20 18.1244 20H21.8744C22.0401 20 22.1991 19.9342 22.3163 19.8169C22.4335 19.6997 22.4994 19.5408 22.4994 19.375V17.6919C22.7494 17.6038 22.9931 17.5031 23.2294 17.3913L24.4188 18.5806C24.5382 18.6934 24.6963 18.7562 24.8606 18.7562C25.0249 18.7562 25.183 18.6934 25.3025 18.5806L27.9538 15.9288C28.0118 15.8708 28.0579 15.8019 28.0894 15.7261C28.1208 15.6502 28.137 15.569 28.137 15.4869C28.137 15.4048 28.1208 15.3235 28.0894 15.2477C28.0579 15.1719 28.0118 15.103 27.9538 15.045L26.765 13.8556C26.8775 13.6194 26.9781 13.3756 27.0656 13.1256L28.75 13.125ZM25.5594 14.4163L26.6294 15.4862L24.8619 17.2544L23.7919 16.1844C23.6955 16.0884 23.5705 16.0264 23.4358 16.0076C23.3011 15.9889 23.1639 16.0145 23.045 16.0806C22.6214 16.3163 22.1717 16.5018 21.705 16.6331C21.574 16.6701 21.4587 16.7489 21.3766 16.8574C21.2945 16.9659 21.25 17.0983 21.25 17.2344V18.75H18.75V17.2344C18.75 17.0983 18.7055 16.9659 18.6234 16.8574C18.5413 16.7489 18.426 16.6701 18.295 16.6331C17.8283 16.5018 17.3786 16.3163 16.955 16.0806C16.8361 16.0144 16.699 15.9888 16.5642 16.0075C16.4294 16.0262 16.3045 16.0883 16.2081 16.1844L15.1381 17.2544L13.3706 15.4862L14.4406 14.4163C14.6381 14.2188 14.6806 13.9131 14.5444 13.6694C14.3085 13.2458 14.1228 12.7961 13.9913 12.3294C13.9543 12.1985 13.8757 12.0833 13.7673 12.0013C13.6588 11.9193 13.5266 11.8749 13.3906 11.875H11.875V9.375H13.3906C13.5266 9.375 13.6589 9.33063 13.7674 9.24863C13.8759 9.16663 13.9547 9.05147 13.9919 8.92062C14.1234 8.45395 14.3091 8.00423 14.545 7.58062C14.6114 7.46181 14.6372 7.32458 14.6184 7.18978C14.5997 7.05498 14.5375 6.92997 14.4413 6.83375L13.3712 5.76375L15.1388 3.99563L16.2087 5.06562C16.305 5.16188 16.43 5.22409 16.5648 5.24282C16.6996 5.26155 16.8368 5.23576 16.9556 5.16937C17.3793 4.93366 17.829 4.74823 18.2956 4.61688C18.4265 4.57974 18.5416 4.50095 18.6236 4.39244C18.7056 4.28393 18.75 4.15163 18.75 4.01562V2.5H21.25V4.01562C21.25 4.15171 21.2945 4.28407 21.3766 4.39259C21.4587 4.50111 21.574 4.57986 21.705 4.61688C22.1717 4.74823 22.6214 4.93366 23.045 5.16937C23.1638 5.23596 23.301 5.26187 23.4359 5.24314C23.5707 5.2244 23.6958 5.16206 23.7919 5.06562L24.8619 3.99563L26.6294 5.76375L25.5594 6.83375C25.4632 6.93002 25.4011 7.05502 25.3823 7.1898C25.3636 7.32458 25.3893 7.46179 25.4556 7.58062C25.6881 7.99625 25.8744 8.44687 26.0087 8.92062C26.0844 9.18937 26.33 9.375 26.6094 9.375H28.125V11.875H26.6094C26.4734 11.875 26.3411 11.9194 26.2326 12.0014C26.1241 12.0834 26.0453 12.1985 26.0081 12.3294C25.8765 12.7961 25.6909 13.2458 25.455 13.6694C25.3194 13.9138 25.3612 14.2188 25.5594 14.4163Z" fill="white"/>
+                                       <path d="M20 5.625C17.2431 5.625 15 7.86813 15 10.625C15 13.3819 17.2431 15.625 20 15.625C22.7569 15.625 25 13.3819 25 10.625C25 7.86813 22.7569 5.625 20 5.625ZM20 14.375C17.9319 14.375 16.25 12.6931 16.25 10.625C16.25 8.55687 17.9319 6.875 20 6.875C22.0681 6.875 23.75 8.55687 23.75 10.625C23.75 12.6931 22.0681 14.375 20 14.375ZM5.625 10.625V17.5H6.875V11.25H9.375V10H6.25C6.08424 10 5.92527 10.0658 5.80806 10.1831C5.69085 10.3003 5.625 10.4592 5.625 10.625ZM34.375 17.5V10.625C34.375 10.4592 34.3092 10.3003 34.1919 10.1831C34.0747 10.0658 33.9158 10 33.75 10H30.625V11.25H33.125V17.5H34.375Z" fill="white"/>
+                                    </svg>
+                                 </span>
+                                </div>
+                                <div class="tp-service-item-content">
+                                    <h4 class="tp-service-item-title">Axis Bank</h4>
+                                    <p>Axis Bank will soon go live with us, partnering to bring VATM access to underserved regions and improve
+                                        lives through innovative banking solutions.</p>
+                                </div>
+                                <div class="tp-service-item-thumb">
+                                   <img src="assets/img/bank/axis.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tp-service-item-wrapper p-relative">
+                                <div class="tp-service-item-icon">
+                                <span>
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15 32.5V38.125C15 38.2908 15.0658 38.4497 15.1831 38.5669C15.3003 38.6842 15.4592 38.75 15.625 38.75H24.375C24.5408 38.75 24.6997 38.6842 24.8169 38.5669C24.9342 38.4497 25 38.2908 25 38.125V32.5C25.0018 31.8431 24.8733 31.1924 24.6219 30.5855C24.3706 29.9786 24.0014 29.4276 23.5356 28.9644C23.1476 28.5781 22.699 28.2581 22.2075 28.0169C23.0281 27.4175 23.6056 26.5038 23.7238 25.4319C23.7425 25.29 23.75 25.1481 23.75 25C23.75 24.8775 23.7431 24.7612 23.7319 24.6562C23.5556 22.7463 21.9169 21.25 20 21.25C18.0831 21.25 16.4444 22.7463 16.2694 24.645C16.2565 24.7629 16.2501 24.8814 16.25 25C16.25 25.1481 16.2575 25.29 16.2744 25.4169C16.3938 26.4988 16.9731 27.4175 17.7963 28.0181C16.1431 28.835 15 30.5344 15 32.5ZM20 22.5C20.8025 22.5 21.5312 22.8944 21.9919 23.5056C21.3487 23.2557 20.665 23.1267 19.975 23.125C19.3 23.125 18.6469 23.2456 18.0331 23.4725C18.2657 23.1718 18.5636 22.9279 18.9044 22.7594C19.2452 22.591 19.6199 22.5022 20 22.5ZM17.515 25.2662C17.5106 25.2312 17.5112 25.1944 17.5088 25.1594C18.2304 24.65 19.0917 24.3761 19.975 24.375C20.8937 24.375 21.7525 24.665 22.4881 25.1919C22.4856 25.2219 22.4869 25.2488 22.4825 25.2806C22.3438 26.5456 21.2763 27.5 20 27.5C18.7237 27.5 17.6562 26.5456 17.515 25.2662ZM20.5875 33.0525L20 34.2275L19.4125 33.0525L20 30.7019L20.5875 33.0525ZM19.1763 28.8444L18.1438 32.9737C18.1073 33.1185 18.1239 33.2715 18.1906 33.405L19.4406 35.905C19.4928 36.0086 19.5728 36.0956 19.6716 36.1565C19.7704 36.2173 19.8842 36.2494 20.0002 36.2494C20.1162 36.2493 20.2299 36.217 20.3287 36.1561C20.4274 36.0952 20.5073 36.008 20.5594 35.9044L21.8094 33.4044C21.8761 33.2709 21.8927 33.1179 21.8563 32.9731L20.8237 28.8431C21.5164 28.9969 22.1506 29.3454 22.6519 29.8475C23.0011 30.1951 23.278 30.6085 23.4665 31.0638C23.655 31.5191 23.7513 32.0072 23.75 32.5V37.5H16.25V32.5C16.25 30.7156 17.5037 29.2206 19.1763 28.8444ZM37.2856 26.4644C36.8976 26.0781 36.449 25.7581 35.9575 25.5169C36.7781 24.9175 37.3556 24.0038 37.4738 22.9319C37.4925 22.79 37.5 22.6481 37.5 22.5C37.5 22.3775 37.4931 22.2612 37.4819 22.1562C37.3056 20.2463 35.6669 18.75 33.75 18.75C31.8331 18.75 30.1944 20.2463 30.0194 22.145C30.0065 22.2629 30 22.3814 30 22.5C30 22.6481 30.0075 22.79 30.0244 22.9169C30.1438 23.9988 30.7231 24.9175 31.5462 25.5181C29.8931 26.335 28.75 28.0344 28.75 30V35.625C28.75 35.7908 28.8158 35.9497 28.9331 36.0669C29.0503 36.1842 29.2092 36.25 29.375 36.25H38.125C38.2908 36.25 38.4497 36.1842 38.5669 36.0669C38.6842 35.9497 38.75 35.7908 38.75 35.625V30C38.7518 29.3431 38.6233 28.6924 38.3719 28.0855C38.1206 27.4786 37.7514 26.9276 37.2856 26.4644ZM33.75 20C34.5525 20 35.2812 20.3944 35.7419 21.0056C35.0987 20.7557 34.415 20.6267 33.725 20.625C33.05 20.625 32.3969 20.7456 31.7831 20.9725C32.0157 20.6718 32.3136 20.4279 32.6544 20.2594C32.9952 20.091 33.3699 20.0022 33.75 20ZM31.265 22.7662C31.2606 22.7312 31.2612 22.6944 31.2588 22.6594C31.9804 22.15 32.8417 21.8761 33.725 21.875C34.6437 21.875 35.5025 22.165 36.2381 22.6919C36.2356 22.7219 36.2369 22.7488 36.2325 22.7806C36.0938 24.0456 35.0262 25 33.75 25C32.4737 25 31.4062 24.0456 31.265 22.7662ZM34.3375 30.5525L33.75 31.7275L33.1625 30.5525L33.75 28.2019L34.3375 30.5525ZM37.5 35H30V30C30 28.2156 31.2537 26.7206 32.9263 26.3444L31.8937 30.4737C31.8573 30.6185 31.8739 30.7715 31.9406 30.905L33.1906 33.405C33.2428 33.5086 33.3228 33.5956 33.4216 33.6565C33.5204 33.7173 33.6342 33.7494 33.7502 33.7494C33.8662 33.7493 33.9799 33.717 34.0787 33.6561C34.1774 33.5952 34.2573 33.508 34.3094 33.4044L35.5594 30.9044C35.6261 30.7709 35.6427 30.6179 35.6063 30.4731L34.5737 26.3431C35.2664 26.4969 35.9006 26.8454 36.4019 27.3475C36.7511 27.6951 37.028 28.1085 37.2165 28.5638C37.405 29.0191 37.5013 29.5072 37.5 30V35ZM1.875 36.25H10.625C10.7908 36.25 10.9497 36.1842 11.0669 36.0669C11.1842 35.9497 11.25 35.7908 11.25 35.625V30C11.2518 29.3431 11.1233 28.6924 10.8719 28.0855C10.6206 27.4786 10.2514 26.9276 9.78562 26.4644C9.39762 26.0781 8.94898 25.7581 8.4575 25.5169C9.27812 24.9175 9.85563 24.0038 9.97375 22.9319C9.9925 22.79 10 22.6481 10 22.5C10 22.3775 9.99312 22.2612 9.98187 22.1562C9.80562 20.2463 8.16687 18.75 6.25 18.75C4.33313 18.75 2.69438 20.2463 2.51938 22.145C2.50652 22.2629 2.50005 22.3814 2.5 22.5C2.5 22.6481 2.5075 22.79 2.52437 22.9169C2.64375 23.9988 3.22312 24.9175 4.04625 25.5181C2.39313 26.335 1.25 28.0344 1.25 30V35.625C1.25 35.7908 1.31585 35.9497 1.43306 36.0669C1.55027 36.1842 1.70924 36.25 1.875 36.25ZM6.25 20C7.0525 20 7.78125 20.3944 8.24188 21.0056C7.59874 20.7557 6.91499 20.6267 6.225 20.625C5.55 20.625 4.89688 20.7456 4.28313 20.9725C4.51569 20.6718 4.81365 20.4279 5.15442 20.2594C5.4952 20.091 5.86985 20.0022 6.25 20ZM3.765 22.7662C3.76063 22.7312 3.76125 22.6944 3.75875 22.6594C4.48036 22.15 5.34173 21.8761 6.225 21.875C7.14375 21.875 8.0025 22.165 8.73812 22.6919C8.73562 22.7219 8.73688 22.7488 8.7325 22.7806C8.59375 24.0456 7.52625 25 6.25 25C4.97375 25 3.90625 24.0456 3.765 22.7662ZM6.8375 30.5525L6.25 31.7275L5.6625 30.5525L6.25 28.2019L6.8375 30.5525ZM2.5 30C2.5 28.2156 3.75375 26.7206 5.42625 26.3444L4.39375 30.4731C4.35728 30.6179 4.37391 30.7709 4.44062 30.9044L5.69062 33.4044C5.74263 33.5082 5.82249 33.5955 5.92128 33.6565C6.02007 33.7175 6.13389 33.7498 6.25 33.7498C6.36611 33.7498 6.47993 33.7175 6.57872 33.6565C6.67751 33.5955 6.75737 33.5082 6.80938 33.4044L8.05938 30.9044C8.12609 30.7709 8.14272 30.6179 8.10625 30.4731L7.07375 26.3431C7.76636 26.4969 8.40062 26.8454 8.90188 27.3475C9.25113 27.6951 9.528 28.1085 9.71649 28.5638C9.90498 29.0191 10.0013 29.5072 10 30V35H2.5V30ZM28.75 13.125C28.9158 13.125 29.0747 13.0592 29.1919 12.9419C29.3092 12.8247 29.375 12.6658 29.375 12.5V8.75C29.375 8.58424 29.3092 8.42527 29.1919 8.30806C29.0747 8.19085 28.9158 8.125 28.75 8.125H27.0669C26.9788 7.875 26.8781 7.63062 26.7663 7.395L27.955 6.20563C28.0131 6.14763 28.0592 6.07876 28.0906 6.00293C28.1221 5.92711 28.1383 5.84583 28.1383 5.76375C28.1383 5.68167 28.1221 5.60039 28.0906 5.52457C28.0592 5.44874 28.0131 5.37987 27.955 5.32188L25.3037 2.67C25.1843 2.55722 25.0262 2.4944 24.8619 2.4944C24.6976 2.4944 24.5395 2.55722 24.42 2.67L23.2306 3.85938C22.9937 3.74688 22.75 3.64625 22.5 3.55813V1.875C22.5 1.70924 22.4342 1.55027 22.3169 1.43306C22.1997 1.31585 22.0408 1.25 21.875 1.25H18.125C17.9592 1.25 17.8003 1.31585 17.6831 1.43306C17.5658 1.55027 17.5 1.70924 17.5 1.875V3.55813C17.25 3.64625 17.0063 3.74687 16.77 3.85875L15.5806 2.66937C15.4611 2.5566 15.3031 2.49377 15.1388 2.49377C14.9744 2.49377 14.8164 2.5566 14.6969 2.66937L12.0456 5.32125C11.9875 5.37924 11.9414 5.44812 11.91 5.52394C11.8786 5.59976 11.8624 5.68104 11.8624 5.76312C11.8624 5.84521 11.8786 5.92649 11.91 6.00231C11.9414 6.07813 11.9875 6.14701 12.0456 6.205L13.2344 7.39438C13.1219 7.63063 13.0212 7.87437 12.9338 8.12437H11.25C11.0842 8.12437 10.9253 8.19022 10.8081 8.30743C10.6908 8.42464 10.625 8.58361 10.625 8.74937V12.4994C10.625 12.6651 10.6908 12.8241 10.8081 12.9413C10.9253 13.0585 11.0842 13.1244 11.25 13.1244H12.9331C13.0213 13.3744 13.1219 13.6187 13.2337 13.8544L12.045 15.0437C11.9869 15.1017 11.9408 15.1706 11.9094 15.2464C11.8779 15.3223 11.8617 15.4035 11.8617 15.4856C11.8617 15.5677 11.8779 15.649 11.9094 15.7248C11.9408 15.8006 11.9869 15.8695 12.045 15.9275L14.6962 18.5794C14.8157 18.6922 14.9738 18.755 15.1381 18.755C15.3024 18.755 15.4605 18.6922 15.58 18.5794L16.7694 17.39C17.0056 17.5025 17.2494 17.6031 17.4994 17.6906V19.375C17.4994 19.5408 17.5652 19.6997 17.6824 19.8169C17.7996 19.9342 17.9586 20 18.1244 20H21.8744C22.0401 20 22.1991 19.9342 22.3163 19.8169C22.4335 19.6997 22.4994 19.5408 22.4994 19.375V17.6919C22.7494 17.6038 22.9931 17.5031 23.2294 17.3913L24.4188 18.5806C24.5382 18.6934 24.6963 18.7562 24.8606 18.7562C25.0249 18.7562 25.183 18.6934 25.3025 18.5806L27.9538 15.9288C28.0118 15.8708 28.0579 15.8019 28.0894 15.7261C28.1208 15.6502 28.137 15.569 28.137 15.4869C28.137 15.4048 28.1208 15.3235 28.0894 15.2477C28.0579 15.1719 28.0118 15.103 27.9538 15.045L26.765 13.8556C26.8775 13.6194 26.9781 13.3756 27.0656 13.1256L28.75 13.125ZM25.5594 14.4163L26.6294 15.4862L24.8619 17.2544L23.7919 16.1844C23.6955 16.0884 23.5705 16.0264 23.4358 16.0076C23.3011 15.9889 23.1639 16.0145 23.045 16.0806C22.6214 16.3163 22.1717 16.5018 21.705 16.6331C21.574 16.6701 21.4587 16.7489 21.3766 16.8574C21.2945 16.9659 21.25 17.0983 21.25 17.2344V18.75H18.75V17.2344C18.75 17.0983 18.7055 16.9659 18.6234 16.8574C18.5413 16.7489 18.426 16.6701 18.295 16.6331C17.8283 16.5018 17.3786 16.3163 16.955 16.0806C16.8361 16.0144 16.699 15.9888 16.5642 16.0075C16.4294 16.0262 16.3045 16.0883 16.2081 16.1844L15.1381 17.2544L13.3706 15.4862L14.4406 14.4163C14.6381 14.2188 14.6806 13.9131 14.5444 13.6694C14.3085 13.2458 14.1228 12.7961 13.9913 12.3294C13.9543 12.1985 13.8757 12.0833 13.7673 12.0013C13.6588 11.9193 13.5266 11.8749 13.3906 11.875H11.875V9.375H13.3906C13.5266 9.375 13.6589 9.33063 13.7674 9.24863C13.8759 9.16663 13.9547 9.05147 13.9919 8.92062C14.1234 8.45395 14.3091 8.00423 14.545 7.58062C14.6114 7.46181 14.6372 7.32458 14.6184 7.18978C14.5997 7.05498 14.5375 6.92997 14.4413 6.83375L13.3712 5.76375L15.1388 3.99563L16.2087 5.06562C16.305 5.16188 16.43 5.22409 16.5648 5.24282C16.6996 5.26155 16.8368 5.23576 16.9556 5.16937C17.3793 4.93366 17.829 4.74823 18.2956 4.61688C18.4265 4.57974 18.5416 4.50095 18.6236 4.39244C18.7056 4.28393 18.75 4.15163 18.75 4.01562V2.5H21.25V4.01562C21.25 4.15171 21.2945 4.28407 21.3766 4.39259C21.4587 4.50111 21.574 4.57986 21.705 4.61688C22.1717 4.74823 22.6214 4.93366 23.045 5.16937C23.1638 5.23596 23.301 5.26187 23.4359 5.24314C23.5707 5.2244 23.6958 5.16206 23.7919 5.06562L24.8619 3.99563L26.6294 5.76375L25.5594 6.83375C25.4632 6.93002 25.4011 7.05502 25.3823 7.1898C25.3636 7.32458 25.3893 7.46179 25.4556 7.58062C25.6881 7.99625 25.8744 8.44687 26.0087 8.92062C26.0844 9.18937 26.33 9.375 26.6094 9.375H28.125V11.875H26.6094C26.4734 11.875 26.3411 11.9194 26.2326 12.0014C26.1241 12.0834 26.0453 12.1985 26.0081 12.3294C25.8765 12.7961 25.6909 13.2458 25.455 13.6694C25.3194 13.9138 25.3612 14.2188 25.5594 14.4163Z" fill="white"/>
+                                       <path d="M20 5.625C17.2431 5.625 15 7.86813 15 10.625C15 13.3819 17.2431 15.625 20 15.625C22.7569 15.625 25 13.3819 25 10.625C25 7.86813 22.7569 5.625 20 5.625ZM20 14.375C17.9319 14.375 16.25 12.6931 16.25 10.625C16.25 8.55687 17.9319 6.875 20 6.875C22.0681 6.875 23.75 8.55687 23.75 10.625C23.75 12.6931 22.0681 14.375 20 14.375ZM5.625 10.625V17.5H6.875V11.25H9.375V10H6.25C6.08424 10 5.92527 10.0658 5.80806 10.1831C5.69085 10.3003 5.625 10.4592 5.625 10.625ZM34.375 17.5V10.625C34.375 10.4592 34.3092 10.3003 34.1919 10.1831C34.0747 10.0658 33.9158 10 33.75 10H30.625V11.25H33.125V17.5H34.375Z" fill="white"/>
+                                    </svg>
+                                 </span>
+                                </div>
+                                <div class="tp-service-item-content">
+                                    <h4 class="tp-service-item-title">Karur Vysya Bank</h4>
+                                    <p>Karur Vysya Bank will soon go live with us, aiming to bring VATM access to underserved
+                                        areas and positively impact lives through innovation.</p>
+                                </div>
+                                <div class="tp-service-item-thumb">
+                                    <img src="assets/img/bank/Karurvysya.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service area bank end -->
+
+    <!-- service area partner start -->
+    <section id="our-partners" class="our-partners-section">
+        <div class="container text-center">
+            <h2 class="section-title">Our Partners</h2>
+            <p class="section-subtitle">Collaborating with the best to build the future.</p>
+        </div>
+
+        <div class="partner-slider">
+            <div class="slider-track">
+                <!-- Set 1: Original Logos -->
+                <div class="partner-item coming-soon">
+                    <img src="assets/img/partner/1.png" alt="Partner 1" class="partner-img" />
+                    <div class="overlay-text">Coming Soon</div>
+                </div>
+                <div class="partner-item coming-soon">
+                    <img src="assets/img/partner/2.png" alt="Partner 2" class="partner-img" />
+                    <div class="overlay-text">Coming Soon</div>
+                </div>
+                <div class="partner-item coming-soon">
+                    <img src="assets/img/partner/3.png" alt="Partner 3" class="partner-img" />
+                    <div class="overlay-text">Coming Soon</div>
+                </div>
+
+                <div class="partner-item coming-soon">
+                    <img src="assets/img/partner/4.png" alt="Partner 4" class="partner-img" />
+                    <div class="overlay-text">Coming Soon</div>
+                </div>
+
+                <div class="partner-item">
+                    <img src="assets/img/partner/5.png" alt="Partner 5" class="partner-img" />
+                    <div class="overlay-text">Live</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service area partner end -->
+
+
+    <!-- START NEWS & VIDEO SECTION -->
+    <section class="news-section py-5">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row text-center mb-5">
+                <div class="col-md-8 offset-md-2">
+                    <h2>Latest News & Updates</h2>
+                    <p>Stay informed with our latest developments and stories.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <!-- Video Player Column -->
+                <!-- Video Player Column -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <!-- The responsive wrapper will work perfectly for the <video> tag as well -->
+                    <div class="ratio ratio-16x9">
+                        <video
+                                src="assets/video/vatm-video-pulse.mp4"
+                                title="VATM promotional video"
+                                controls
+                                loop
+                                autoplay
+                                muted
+                                playsinline>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- News Links Column -->
+                <div class="col-lg-6">
+                    <div class="news-list">
+                        <!-- News Item: J&K Bank Partnership (Nov 2024) -->
+                        <a href="https://kashmirobserver.net/2024/11/22/jk-bank-launches-virtual-atm-facility-in-collaboration-with-paymart-india/" target="_blank" rel="noopener noreferrer" class="news-item">
+                            <div class="news-item-content">
+                                <h5>J&K Bank Launches Virtual ATM Facility with PayMart India</h5>
+                                <p>This collaboration enhances banking convenience, allowing J&K Bank customers to withdraw cash without a debit card via local PayMart merchants.</p>
+                            </div>
+                        </a>
+
+                        <!-- News Item: PayMart Partners with 5 Banks (Feb 2024) -->
+                        <a href="https://bfsi.economictimes.indiatimes.com/news/fintech/ex-phonepe-ceos-startup-paymart-to-offer-virtual-atm-partners-5-indian-banks/107556516" target="_blank" rel="noopener noreferrer" class="news-item">
+                            <div class="news-item-content">
+                                <h5>PayMart Partners with 5 Indian Banks to Launch Virtual ATMs</h5>
+                                <p>The startup, founded by an ex-PhonePe executive, will enable cash withdrawals through local merchants, expanding financial access in Tier 2, 3, and 4 cities.</p>
+                            </div>
+                        </a>
+
+                        <!-- News Item: YourStory Feature (Aug 2021) -->
+                        <a href="https://yourstory.com/2021/08/startup-bharat-paymart-turning-next-door-kiranas-virtual-atms" target="_blank" rel="noopener noreferrer" class="news-item">
+                            <div class="news-item-content">
+                                <h5>YourStory: How PayMart Turns Kiranas into Virtual ATMs</h5>
+                                <p>A feature on how PayMart's innovative model is empowering local merchants and making cash more accessible in underserved areas.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END NEWS & VIDEO SECTION -->
+
+
+
+
+
+    <!-- team area start -->
+    <section class="tp-team-area pb-120 tp-team-item-margin">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tp-team-title-wrapper text-center mb-40">
+                        <span class="tp-section-title-pre">Management team </span>
+                        <h3 class="tp-section-title">Leading the way in business <br> transformation</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="tp-team-item p-relative wow fadeInUp h-100" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="tp-team-item-thumb">
+                            <a href="amit-narang.html"><img src="assets/img/team/AMNarang.png" alt="Amit Narang"></a>
+                        </div>
+                        <div class="tp-team-social">
+                            <a class="icon-1" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="icon-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="icon-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="icon-4" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                        <div class="tp-team-info text-center">
+                            <h4 class="tp-team-info-title"><a href="amit-narang.html">Amit Narang</a></h4>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tp-team-item p-relative wow fadeInUp h-100" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="tp-team-item-thumb">
+                            <a href="surinder-singh-bedi.html"><img src="assets/img/team/SSBedi.png" alt="Surinder Singh Bedi"></a>
+                        </div>
+                        <div class="tp-team-social">
+                            <a class="icon-1" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="icon-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="icon-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="icon-4" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                        <div class="tp-team-info text-center">
+                            <h4 class="tp-team-info-title"><a href="surinder-singh-bedi.html">Surinder Singh Bedi</a></h4>
+                            <p>President</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tp-team-item p-relative wow fadeInUp h-100" data-wow-duration="1s" data-wow-delay=".7s">
+                        <div class="tp-team-item-thumb">
+                            <a href="gc-pandey.html"><img src="assets/img/team/GCPande.png" alt="GC Pandey"></a>
+                        </div>
+                        <div class="tp-team-social">
+                            <a class="icon-1" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="icon-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="icon-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="icon-4" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                        <div class="tp-team-info text-center">
+                            <h4 class="tp-team-info-title"><a href="gc-pandey.html">GC Pandey</a></h4>
+                            <p>CO Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tp-team-item p-relative wow fadeInUp h-100" data-wow-duration="1s" data-wow-delay=".9s">
+                        <div class="tp-team-item-thumb">
+                            <a href="suvir-chopra.html"><img src="assets/img/team/M4.jpg" alt="Mr. Suvir Chopra"></a>
+                        </div>
+                        <div class="tp-team-social">
+                            <a class="icon-1" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="icon-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="icon-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="icon-4" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                        <div class="tp-team-info text-center">
+                            <h4 class="tp-team-info-title"><a href="suvir-chopra.html">Mr. Suvir Chopra</a></h4>
+                            <p>IT & Operations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team area end -->
+
+</main>
+
+
+<div id="footer-placeholder"></div>
+
+
+<!-- JS here -->
+<script src="assets/js/vendor/jquery.js"></script>
+<script src="assets/js/vendor/waypoints.js"></script>
+<script src="assets/js/bootstrap-bundle.js"></script>
+<script src="assets/js/meanmenu.js"></script>
+<script src="assets/js/swiper-bundle.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js//jquery-appear.js"></script>
+<script src="assets/js/jquery-knob.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/nice-select.js"></script>
+<script src="assets/js/purecounter.js"></script>
+<script src="assets/js/countdown.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/isotope-pkgd.js"></script>
+<script src="assets/js/imagesloaded-pkgd.js"></script>
+<script src="assets/js/ajax-form.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/header-footer.js"></script>
+</body>
+</html>
+
